@@ -1,0 +1,34 @@
+{% comment %} enumerate_pages ---------------------------------------------===
+  Copyright © 2012 by its contributors (see AUTHORS for details). Distributed
+  under the Creative Commons Attribution-ShareAlike 3.0 Unported License, the
+  contents of which may be found in the accompanying file LICENSE or from the
+  web address http://creativecommons.org/licenses/by-sa/3.0/deed.en_US.
+===-----------------------------------------------------------{% endcomment %}
+
+{% for node in pages %}
+  {% assign _visible = false %}
+  {% unless group == false %}
+    {% for _node_group in node.groups %}
+      {% if group == _node_group %}
+        {% assign _visible = true %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+  {% if _visible %}
+    {% if use_content %}
+{{ node.content }}
+    {% elsif fragment != nil %}
+{% include fragment %}
+    {% elsif node.title != nil %}
+      {% if page.url == node.url %}
+        <li class="active"><a href="{{ node.url|replace:'/index.html','/' }}" class="active">{{ node.title }}</a></li>
+      {% else %}
+        <li><a href="{{ node.url|replace:'/index.html','/' }}">{{ node.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}--------------------------------------------------------------===
+  End of File
+===-----------------------------------------------------------{% endcomment %}

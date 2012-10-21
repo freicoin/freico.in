@@ -1,0 +1,610 @@
+{% comment %} default.html ------------------------------------------------===
+  Copyright © 2012 by its contributors (see AUTHORS for details). Distributed
+  under the Creative Commons Attribution-ShareAlike 3.0 Unported License, the
+  contents of which may be found in the accompanying file LICENSE or from the
+  web address http://creativecommons.org/licenses/by-sa/3.0/deed.en_US.
+===-----------------------------------------------------------{% endcomment %}
+
+<!--
+  This prevents the IE-specific conditional markup below from holding up the
+  page load. See <http://www.phpied.com/conditional-comments-block-downloads/>.
+  -->
+<!--[if IE]><![endif]-->
+
+<!-- The HTML5 doctype is just “html” -->
+<!DOCTYPE html>
+
+<!-- FIXME: consider adding a manifest.appcache: <http://h5bp.com/d/Offline> -->
+
+<!--
+  The “dir” and “lang” attributes specify the text-direction and language of
+  the site. It is currently configured for US English, but that will have to
+  become a dynamic setting when we internationalize and localize the site.
+
+  The “no-js” class tells Modernizr (see below) to detect HTML5 features. It
+  will be removed by Modernizr. If JavaScript is not enabled in the browser,
+  Modernizr will of course not run and the “no-js” class will remain in place,
+  with obvious semantics.
+  -->
+{% capture html_dir   %}{% if site.html_dir  %}{{ site.html_dir  }}{% else %}ltr{%    endif %}{% endcapture %}
+{% capture html_lang  %}{% if site.html_lang %}{{ site.html_lang }}{% else %}en-US}{% endif %}{% endcapture %}
+{% capture html_class %}{{ site.html_class }} no-js{% endcapture %}
+<!--[if gt IE 8]><!-->
+<html
+  dir="{{ html_dir }}"
+  lang="{{ html_lang }}"
+  class="{{ html_class }}"
+  >
+<!--<![endif]-->
+<!--[if lt IE 7]>
+<html
+  dir="{{ html_dir }}"
+  lang="{{ html_lang }}"
+  class="{{ html_class }} lt-ie9 lt-ie8 lt-ie7 ie6"
+  >
+<![endif]-->
+<!--[if IE 7]>
+<html
+  dir="{{ html_dir }}"
+  lang="{{ html_lang }}"
+  class="{{ html_class }} lt-ie9 lt-ie8 ie7"
+  >
+<![endif]-->
+<!--[if IE 8]>
+<html
+  dir="{{ html_dir }}"
+  lang="{{ html_lang }}"
+  class="{{ html_class }} lt-ie9 ie8"
+  >
+<![endif]-->
+
+<head>
+  {% comment %}
+    The “time_sensitive” block contains header elements which for whatever
+    reason need to be parsed as soon as possible, often because a delay may
+    affect render speed, client behavior, or user experience.
+  {% endcomment %}
+  <!--
+    This META field makes explicitly clear that we are using the Unicode
+    charset with UTF-8 encoding. It comes as early as it can in the markup
+    because when the browser encounters this meta tag it will start the
+    parsing over with the new charset settings.
+    -->
+  <meta
+    http-equiv="Content-Type"
+    content="text/html; charset=UTF-8"
+    />
+
+  <!--
+    Translation: this web page is in U.S. English. This element is placed
+    here, early in the stream because conceivably there exist web crawlers
+    that are only interested in collecting content in certain languages,
+    and for these crawlers the “language” meta tag offers an early-exit
+    capability.
+
+    FIXME: Add support for other languages then make this dynamic based on
+           the actual language being used.
+    -->
+  <meta
+    name="language"
+    content="{{ html_lang }}"
+    />
+
+  <!-- Enable standards-compliant mode and Chrome-frame plugin in IE.
+    FIXME: Use the .htaccess and remove these lines to avoid edge case
+      issues; see: <http://h5bp.com/i/378> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- Set the viewport on mobile browsers to the device-width, and
+    compensate for high-DPI displays; see: <http://h5bp.com/viewport> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--
+    The TITLE tag should be very carefully chosen as it can greatly affect
+    search rankings. It is important that the title of the landing page of
+    the site contain the most important search term(s) that we are
+    targeting, and that content pages have configurable titles.
+    -->
+  <title>{{ page.title }}</title>
+
+  <!--
+    The favicon.ico file is used to associate an icon with the website,
+    typically for display in the browser's URL bar.
+      - Size: 16x16 or 32x32 for display in the browser, up to 64x64 for
+        display on the task bar in Windows.
+      - Multiple icon sizes may be encoded within a single favicon.ico
+        file.
+      - Transparency is OK.
+      - See wikipedia for info on browser support:
+        <http://en.wikipedia.org/wiki/Favicon#Browser_support>
+
+    See: <http://mathiasbynens.be/notes/touch-icons>
+
+    FIXME: Waiting for higher resolution images from the design team.
+    -->
+  {% if site.favicon %}
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="{{ site.favicon }}"
+    />
+  {% endif %}
+
+  <!--
+    The apple-touch-icon.png associates an UI icon with the website on iOS
+    devices. This image is what is shown when the site is bookmarked on
+    the home screen.
+      - Size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for
+        iPhone4's retina display (For best support, just go ahead and use
+        the biggest one).
+      - Transparency is not recommended (iOS will put a black BG behind
+        the icon).
+      - iOS will apply gloss and rounded corners to the image before
+        displaying it. For more control, you may apply the rounded gloss
+        yourself and rename the file <apple-touch-icon-precomposed.png>.
+
+    See: <http://mathiasbynens.be/notes/touch-icons>
+
+    FIXME: Waiting for higher resolution images from the design team.
+    -->
+  {% if site.apple_touch_icon %}
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="{{ site.apple_touch_icon }}"
+      />
+  {% endif %}
+
+  <!--
+    FIXME: At some point we will have to register ourselves with Google. See
+           <http://www.google.com/webmasters/> for details.
+    -->
+  <!--
+  <meta
+    name="google-site-verification"
+    content=""
+    />
+  -->
+
+  {% comment %}
+    The “semantic_web” block contains a mix of header elements which describe
+    what this resource is, and how it relates to other resources accessible
+    from elsewhere on the world wide web.
+  {% endcomment %}
+
+  <!--
+    When a resource is accessible from multiple locations, the “canonical”
+    rel link provides a way to inform web crawlers and other automated tools
+    which URI to use as its primary identifier.
+    -->
+  {% if site.url %}
+    <link
+      rel="canonical"
+      href="{{ site.url }}{{ page.url }}"
+      />
+  {% endif %}
+
+  <!--
+    The following “index”, “prev”, and “next” related links provide some
+    context to the user agent (with obvious semantics), and are particularly
+    important to web crawlers.
+
+    FIXME: Figure out how to define “index”, “prev”, and “next” related
+           links for this project.
+    -->
+  <!--
+  <link
+    rel="index"
+    title="FIXME"
+    href="/FIXME"
+    />
+  <link
+    rel="prev"
+    title="FIXME"
+    href="/FIXME"
+    />
+  <link
+    rel="next"
+    title="FIXME"
+    href="/FIXME"
+    />
+  -->
+
+  <!--
+    The keywords META tag is a SEO field that is rarely used by the big
+    search companies these days. Nevertheless, it is used by older, esoteric
+    software and it certainly doesn't hurt to include it, when keyword data
+    is available.
+
+    FIXME: Come up with some SEO keywords for the landing page, about page,
+           etc.
+    FIXME: Determine a procedure for generating SEO keywords for content,
+           profile, and other dynamic pages.
+    -->
+  {% if page.keywords %}
+    {% assign keywords = page.keywords %}
+  {% elsif site.keywords %}
+    {% assign keywords = site.keywords %}
+  {% endif %}
+  
+  {% if keywords %}
+    <meta
+      name="keywords"
+      content="{{ keywords }}"
+      />
+  {% endif %}
+
+  <!--
+    Google will often use the following field as its description of our
+    site. Make it good. There is a belief that it might also affect
+    “related:” queries (unknown if there is any truth to that). It should be
+    less than 155 characters of plain text.
+    -->
+  {% if page.description %}
+    {% assign description = page.description %}
+  {% elsif site.description %}
+    {% assign description = site.description %}
+  {% endif %}
+
+  {% if description %}
+    <meta
+      name="description"
+      content="{{ description }}"
+      />
+  {% endif %}
+
+  <!--
+    Like the keywords tag, the author and copyright META fields generally
+    aren't used anymore, but there is no harm in making them available for
+    web crawlers and automated tools.
+
+    FIXME: Make sure that <info@roku-sigma.com> is a valid account that a
+           human will read.
+    FIXME: Make the copyright year dynamic, based on the current date.
+    -->
+  {% if page.author %}
+    {% assign author = page.author %}
+  {% elsif site.author %}
+    {% assign author = site.author %}
+  {% endif %}
+
+  {% if author %}
+    {% capture author_email %}{{ author.name }}{% if author.email %} <{{ author.email }}>{% endif %}{% endcapture %}
+    <meta
+      name="author"
+      content="{{ author_email }}"
+      />
+  {% endif %}
+
+  {% if page.copyright %}
+    {% assign copyright = page.copyright %}
+  {% elsif site.copyright %}
+    {% assign copyright = site.copyright %}
+  {% elsif author %}
+    {% capture copyright %}Copyright © {{ site.time | date:"%Y" }} {{ author_email }}, All Rights Reserved{% endcapture %}
+  {% endif %}
+
+  {% if copyright %}
+    <meta
+      name="copyright"
+      content="{{ page.copyright }}"
+      />
+  {% endif %}
+
+  <!--
+    The following feed links are taken from the WordPress site verbatim, and
+    left here mostly as an example so that we won't have to look up the
+    syntax of a RSS feed link when we later add our own. This project will
+    have it's own RSS and ATOM feeds, but we'll probably not be syndicating
+    posts and comments the way WordPress does so this will need some
+    modification.
+
+    FIXME: Determine which feeds will be provided from which pages in what
+           formats, and re-write accordingly.
+    -->
+  <!--
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Appname » Feed"
+    href="http://appname.com/feed"
+    />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Appname » Comments Feed"
+    href="http://appname.com/comments/feed"
+    />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Appname » Home Comments Feed"
+    href="http://appname.com/home/feed"
+    />
+  -->
+
+  {% if page.theme %}
+    {% assign theme = page.theme %}
+  {% elsif site.theme %}
+    {% assign theme = site.theme %}
+  {% endif %}
+
+  <!--
+    Twitter Bootstrap is a free collection of tools for creating websites
+    and web applications. It contains HTML and CSS-based design templates
+    for typography, forms, buttons, charts, navigation and other interface
+    components, as well as optional JavaScript extensions.
+    -->
+  <link
+    id="css-bootstrap"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="/static/{% if theme %}theme/{{ theme }}{% else %}lib/bootstrap/2.1.1{% endif %}/css/bootstrap.min.css"
+    />
+  <link
+    id="css-bootstrap-responsive"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="/static/lib/bootstrap/2.1.1/css/bootstrap-responsive.min.css"
+    />
+
+  <!--
+    The primary stylesheets of the site. The stylesheets are split into
+    themes, each contained within their own directory on the server. Within
+    each theme directory is a “css” folder containing two files:
+    “layout.css” and “typography.css”, with obvious semantics.
+    -->
+  <link
+    id="css-layout"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="/static/theme/{% if theme %}{{ theme }}{% else %}default{% endif %}/css/layout.css"
+    />
+  <link
+    id="css-typography"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="/static/theme/{% if theme %}{{ theme }}{% else %}default{% endif %}/css/typography.css"
+    />
+
+  <!--
+    Modernizr HTML5 detection library tests the browser for support of new
+    HTML5 features, and adds classes to the <html> element allowing us to
+    target specific browser functionality in our stylesheets.
+    -->
+  <script
+    type="text/javascript"
+    src="/static/lib/modernizr/2.6.1/modernizr.js"
+    ></script>
+</head>
+
+<!--
+  The id="appname-com" is useful for creating CSS that can be shared across
+  multiple company projects, but with some web site specific callouts.
+  -->
+{% if site.body_id %}
+  {% assign body_id = site.body_id %}
+{% elsif page.body_id %}
+  {% assign body_id = page.body_id %}
+{% else %}
+  {% assign body_id = site.url | split:'://' | last | replace:'.','-' %}
+{% endif %}
+{% capture classes %}{{ site.classes }} {{ page.classes }}{% endcapture %}
+<body
+  id="{{ body_id }}"
+  class="{{ classes }}"
+  ><div id="main" class="container">
+
+<!--
+  Prompt IE 6 users to install Chrome Frame; remove this if you support IE6.
+  See: <http://chromium.org/developers/how-tos/chrome-frame-getting-started>
+  -->
+<!--[if lt IE 7]>
+  <p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site as it is meant to be viewed.</p>
+<![endif]-->
+
+<header id="overview" class=
+  "{% unless site.SITE_WIDE_SEARCH %}no-{% endunless %}search">
+  <div class="row">
+    <div class="span6">
+      {% if site.logo.header %}
+        <a id="logo-header-link" class="brand" href="/" title=
+        "{{ site.title }}"><img class="logo-header-image" src=
+        "{{ site.logo.header.src }}" alt="{{ site.title }}" /></a>
+      {% else %}
+        <h1>{{ site.title }}</h1>
+      {% endif %}
+      <p class="lead">{{ site.tagline }}</p>
+    </div>
+  </div>
+
+  <div class="navbar jumbotron subhead nav">
+    <div class="navbar-inner">
+
+      {% if site.menu.primary %}
+        <ul class="nav" id="menu-primary-nav">
+          {% assign menu = site.menu.primary %}
+          {% include enumerate_menu %}
+          {% assign menu = nil %}
+        </ul><!-- #menu-primary-nav -->
+      {% endif %}
+
+      {% if site.SITE_WIDE_SEARCH %}
+        <form
+          class="search pull-right"
+          method="get"
+          action="/search/"
+          onsubmit="this.submit();return false;"
+          >
+          <fieldset>
+            <input
+              id="search-header"
+              type="text"
+              value=""
+              name="s"
+              class="searchfield"
+              autofocus
+              />
+
+            <input
+              type="image"
+              class="submit btn"
+              name="submit"
+              src="/static/images/search-btn.png"
+              alt="Go"
+              />
+          </fieldset>
+        </form><!-- .search -->
+      {% endif %}
+
+    </div><!-- .navbar-inner -->
+  </div><!-- .navbar -->
+</header>
+
+<div id="site">
+  <div class="container">
+    <div id="page">
+      <div id="page-canvas">
+
+        <div id="content-body">
+          {{ content }}
+        </div><!-- #content-body -->
+
+        <div id="content-footer">
+        </div><!-- #content-footer -->
+      </div><!-- #page-canvas -->
+    </div><!-- #page -->
+  </div><!-- .container -->
+</div><!-- #site -->
+
+<div id="footer">
+  <div class="container">
+    <footer class="footer">
+      <p id="logo-footer">
+        {% if site.logo.header %}
+          <a id="logo-footer-link" class="brand" href="/" title=
+          "{{ site.title }}"><img class="logo-footer-image" src=
+          "{{ site.logo.footer.src }}" alt="{{ site.title }}" /></a>
+          <br />
+        {% else %}
+          <h1>{{ site.title }}</h1>
+        {% endif %}
+      </p>
+
+      <ul class="nav nav-pills" id="menu-footer-nav">
+        {% assign menu = site.menu.footer %}
+        {% assign no_active = true %}
+        {% include enumerate_menu %}
+        {% assign menu = nil %}
+        {% assign no_active = nil %}
+      </ul>
+
+      <p id="copyright-footer">
+        {% if copyright %}
+          <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a><br />
+            Licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></span>
+        {% endif %}
+      </p>
+    </footer><!-- .footer -->
+  </div><!-- .container -->
+</div><!-- #footer -->
+
+<!-- =============================================
+  JavaScript at the bottom for fast page loading
+============================================== -->
+
+<!--
+  jQuery, a multi-purpose JavaScript framework. We grab Google CDN's jQuery,
+  and fall back on our own if Google is not available.
+  -->
+<script
+  type="text/javascript"
+  src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+  ></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script type="text/javascript" src="/static/lib/jquery/1.8.2/jquery.min.js"<\/script>');
+</script>
+
+<!--
+  Capture jQuery to remain compatible with other frameworks and libraries,
+  but without removing it from the global scope.
+  -->
+<script type="text/javascript">
+  var $j = jQuery.noConflict();
+</script>
+
+<!--
+  -->
+<script
+  type="text/javascript"
+  src="/static/lib/bootstrap/2.1.1/js/bootstrap.min.js"
+  ></script>
+
+<!--
+  DD_belatedPNG is a Javascript library that sandwiches PNG image support
+  into IE6 without much fuss. For more information, check out
+  <http://www.dillerdesign.com/experiment/DD_belatedPNG/>.
+  -->
+<!--[if IE 6]>
+<script
+  type="text/javascript"
+  src="/static/js/ie6/ie.belatedpng.js"
+  ></script>
+<script type="text/javascript">
+  $j(document).ready(function () {
+    DD_belatedPNG.fix('img');
+  });
+</script>
+<![endif]-->
+
+<!--
+  Le HTML5 shim, for IE6-8 support of HTML5 elements.
+  FIXME: download this locally, and serve our local copy if the remote
+    version cannot be loaded.
+  -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--
+  -->
+<script type="text/javascript">
+  $j(document).ready(function(){
+    if (!("autofocus" in document.createElement("input"))) {
+      document.getElementById("search-header").focus();
+    }
+  })
+</script>
+
+<!--
+  This is a variation of the official analytics snippet:
+    <http://mathiasbynens.be/notes/async-analytics-snippet>
+
+  FIXME: Sign up for analytics, replace XXXXXX-XX with our site's ID and
+         uncomment to put it into effect.
+  -->
+{% if site.analytics.google %}
+  <script>
+    var _gaq = [['_setAccount', '{{ site.analytics.google.code }}'], ['_trackPageview']];
+    (function(d, t) {
+      var g = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+      g.async = true;
+      g.src = ('https:'==location.protocol?'//ssl':'//www') + '.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s);
+    })(document, 'script');
+  </script>
+{% endif %}
+
+</div></body>
+
+</html>
+
+{% comment %}--------------------------------------------------------------===
+  End of File
+===-----------------------------------------------------------{% endcomment %}

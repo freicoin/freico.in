@@ -1,0 +1,86 @@
+# === _config.yml ---------------------------------------------------------===
+# Copyright © 2012 by its contributors (see AUTHORS for details). Distributed
+# under the Creative Commons Attribution-ShareAlike 3.0 Unported License, the
+# contents of which may be found in the accompanying file LICENSE or from the
+# web address http://creativecommons.org/licenses/by-sa/3.0/deed.en_US.
+# ===----------------------------------------------------------------------===
+
+title : Freicoin
+tagline: peer-to-peer demurrage currency
+author :
+    name: Freicoin Developers
+    #email: freicoin@monetize.io
+    #url: http://monetize.io/
+
+theme: spacelab
+favicon: /static/images/favicon.ico
+apple_touch_icon: /static/images/apple-touch-icon.png
+
+logo:
+    header:
+        src: '/static/images/logo-header.png'
+    footer:
+        src: '/static/images/logo-footer.png'
+
+menu:
+    primary:
+        -
+            title: Home
+            url: /index.html
+        -
+            title: About
+            url: /about/index.html
+        -
+            title: News
+            url: /news/index.html
+        -
+            title: Download
+            url: /download/index.html
+        -
+            title: Develop
+            url: https://github.com/freicoin/freicoin
+        -
+            title: Discuss
+            url: http://www.freicoin.org/
+    footer:
+        -
+            title: About
+            url: /about/index.html
+        -
+            title: News
+            url: /news/index.html
+        -
+            title: Github
+            url: https://github.com/freicoin/freicoin
+        -
+            title: Copyright
+            url: /copyright/index.html
+
+freicoind:
+    version: 0.0.1beta2
+    release_date: 2012-09-15T05:03:13
+
+analytics:
+    google:
+        code: UA-35675637-1
+
+exclude:
+    - ".cache"
+    - ".pkg"
+    - ".rbenv-version"
+    - "AUTHORS"
+    - "CNAME"
+    - "Gemfile"
+    - "Gemfile.lock"
+    - "LICENSE"
+    - "Makefile"
+    - "Makefile.local"
+    - "README.md"
+    - "changelog.md"
+    - "configure"
+auto: true
+pygments: true
+
+# ===----------------------------------------------------------------------===
+# End of File
+# ===----------------------------------------------------------------------===

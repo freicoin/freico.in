@@ -1,0 +1,46 @@
+/*** /theme/default/css/layout.css ----------------------------------------***
+  Copyright © 2012 by its contributors (see AUTHORS for details). Distributed
+  under the Creative Commons Attribution-ShareAlike 3.0 Unported License, the
+  contents of which may be found in the accompanying file LICENSE or from the
+  web address http://creativecommons.org/licenses/by-sa/3.0/deed.en_US.
+***-----------------------------------------------------------------------***/
+
+/* Aaron put together a slightly textured background for the site. It comes in
+ * two varients: light and dark, which are both shades of light-brown-gray.
+ * The light is used for the page background and the dark for the background
+ * of design elements like buttons and input fields.
+ */
+body {
+  background:url("/static/images/texture-light.png") repeat scroll 0 0 transparent;
+  margin-top:18px;
+  margin-bottom:18px;
+}
+input, textarea {
+  background:url("/static/images/texture-dark.png") repeat scroll 0 0 transparent;
+}
+
+/* Provide some styling to the footer, making stacked, centered, and with a
+ * little bit of space between it and the page content.
+ */
+#footer {
+  margin-top:18px;
+}
+#logo-footer,
+#copyright-footer {
+  text-align:center;
+}
+
+#footer .nav-pills {
+  text-align:center;
+  margin-bottom:0.5em;
+}
+#footer .nav-pills > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  zoom:1; /* hasLayout ie7 trigger */
+}
+
+/***-----------------------------------------------------------------------***
+  End of File
+***-----------------------------------------------------------------------***/

@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Mark Friedenbach <mark@monetize.com>
+  Site:
+  Twitter:
+  Location:
+
+  Designer:  Aaron Blumenshine <aaron@monetize.com>
+  Site:
+  Twitter:
+  Location:
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards:  HTML5, CSS3
+  Components: Bootstrap, Modernizr, jQuery
+  Software:

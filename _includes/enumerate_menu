@@ -1,0 +1,24 @@
+{% comment %} enumerate_menu ----------------------------------------------===
+  Copyright © 2012 by its contributors (see AUTHORS for details). Distributed
+  under the Creative Commons Attribution-ShareAlike 3.0 Unported License, the
+  contents of which may be found in the accompanying file LICENSE or from the
+  web address http://creativecommons.org/licenses/by-sa/3.0/deed.en_US.
+===-----------------------------------------------------------{% endcomment %}
+
+{% for navitem in menu %}
+  {% assign _classes = '' %}
+  {% if page.url == navitem.url %}
+    {% unless no_active %}
+      {% assign _classes = 'active' %}
+    {% endunless %}
+  {% else %}
+    {% assign _classes = false %}
+  {% endif %}
+
+  <li{% if _classes %} class="{{ _classes }}"{% endif %}><a href="{{ navitem.url|replace:'/index.html','/' }}"{% if _classes %} class="active"{% endif %}
+      >{{ navitem.title }}</a></li>
+{% endfor %}
+
+{% comment %}--------------------------------------------------------------===
+  End of File
+===-----------------------------------------------------------{% endcomment %}
