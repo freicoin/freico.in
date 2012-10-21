@@ -1,0 +1,5 @@
+Makefile.local
+.cache/
+.pkg/
+.rbenv-version
+_site/
