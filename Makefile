@@ -13,17 +13,17 @@ PKG_ROOT=${ROOT}/.pkg
 
 .PHONY: all
 all: ${PKG_ROOT}/.stamp-h
-	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec \
+	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec bundle exec \
 	    jekyll --no-server --no-auto --pygments --no-lsi --safe
 
 .PHONY: shell
 run:  ${PKG_ROOT}/.stamp-h
-	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec \
+	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec bundle exec \
 	    jekyll --server --auto --pygments --no-lsi --safe
 
 .PHONY: shell
 shell: all
-	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec \
+	RBENV_ROOT="${PKG_ROOT}" "${PKG_ROOT}"/bin/rbenv exec bundle exec \
 	    irb
 
 .PHONY: mostlyclean
