@@ -4,7 +4,7 @@ groups: ['feature']
 weight: 5
 slug: echo
 title: Feature Five
-description: Maecenas nisi nulla, suscipit eu elementum quis, condimentum at ligula. Ut erat urna, gravida nec volutpat at, fringilla non erat. Pellentesque vehicula, magna non pellentesque euismod, ipsum dolor tempus metus, et vulputate turpis diam ac sapien. Sed ultricies, metus at lacinia interdum, orci nibh posuere enim, ut consequat enim tortor quis ligula.
+description: Maecenas nisi nulla, suscipit eu elementum quis, condimentum at ligula. Ut erat urna, gravida nec volutpat at, fringilla non erat.
 ---
 Nulla commodo tellus et orci luctus consequat. Phasellus semper mollis fringilla. Phasellus justo nisi, facilisis in bibendum molestie, feugiat laoreet enim. Curabitur sapien odio, ultrices a bibendum et, iaculis quis urna. Suspendisse facilisis, erat sit amet sodales facilisis, leo ligula posuere nulla, non semper massa augue eu justo. Fusce a quam erat. Nulla posuere mollis dolor, nec faucibus metus tempor et.
 

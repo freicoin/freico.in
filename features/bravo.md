@@ -4,7 +4,7 @@ groups: ['feature']
 weight: 2
 slug: bravo
 title: Feature Two
-description: Maecenas ipsum eros, cursus sed aliquam vestibulum, pretium sed lorem. Sed aliquet urna ut magna aliquet at lobortis risus imperdiet. Curabitur pulvinar dui eu lectus venenatis a imperdiet erat pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sit amet nulla et mi scelerisque semper. Cras viverra fringilla turpis eu ornare.
+description: Maecenas ipsum eros, cursus sed aliquam vestibulum, pretium sed lorem. Sed aliquet urna ut magna aliquet at lobortis risus imperdiet.
 ---
 Vivamus id mauris quis eros eleifend iaculis. Ut ullamcorper dui quis sapien accumsan nec imperdiet sapien commodo. Fusce turpis augue, vestibulum non aliquam pharetra, sollicitudin in eros. Integer felis erat, placerat nec pretium porta, convallis non nunc. Integer vel tortor sed massa placerat pellentesque a at ante. Integer id diam erat, sollicitudin cursus risus. Nulla accumsan viverra est, nec placerat leo adipiscing in. Nunc posuere diam varius neque imperdiet aliquam. Praesent ullamcorper mollis felis. Aliquam sit amet varius sem. Vivamus elementum rutrum magna, sed condimentum leo consequat quis. Nam egestas lacinia posuere. Aenean tincidunt elit a nisl placerat tempus. Proin dictum aliquet orci, eget aliquam erat pharetra et. Sed eget eros non nisl condimentum gravida.
 

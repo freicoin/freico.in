@@ -4,7 +4,7 @@ groups: ['feature']
 weight: 1
 slug: alpha
 title: Feature One
-description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacus elit, mattis ac malesuada pretium, dictum ut dolor. Maecenas laoreet dignissim tellus, sit amet iaculis nulla ultrices ac. In hac habitasse platea dictumst. Suspendisse lectus lacus, consectetur molestie gravida non, consectetur ac quam.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacus elit, mattis ac malesuada pretium, dictum ut dolor.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tincidunt vulputate. Vivamus malesuada porttitor nisi id laoreet. Pellentesque dapibus, nisl quis placerat bibendum, ipsum mauris sagittis velit, eu vulputate purus lacus at enim. In ac justo vitae augue luctus elementum at nec odio. Maecenas id arcu blandit nisl ullamcorper egestas sed in neque. Sed varius malesuada augue, non porttitor ligula aliquam nec. Cras vel tortor ut lacus luctus ultrices id eget nunc. Aliquam erat volutpat. Nullam neque justo, sagittis sit amet auctor nec, lobortis id tellus. Praesent a quam at erat pellentesque pellentesque vel eu elit. Pellentesque sed nunc felis, in porttitor sem. Sed nec nibh enim, id porttitor orci. Maecenas euismod placerat augue, sit amet molestie ante fringilla eget.
 

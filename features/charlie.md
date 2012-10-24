@@ -4,7 +4,7 @@ groups: ['feature']
 weight: 3
 slug: charlie
 title: Feature Three
-description: Vivamus lacus eros, tristique quis mattis nec, imperdiet id lacus. Proin tortor dui, pretium vitae vehicula ut, vestibulum eget sem. Mauris sem lectus, volutpat nec porttitor sit amet, egestas vel erat. Aliquam rutrum, mi eget vestibulum mattis, sapien lectus lobortis purus, id molestie velit quam quis ante. Maecenas turpis neque, egestas ut ullamcorper vel, interdum non nunc.
+description: Vivamus lacus eros, tristique quis mattis nec, imperdiet id lacus. Proin tortor dui, pretium vitae vehicula ut, vestibulum eget sem.
 ---
 Suspendisse ullamcorper laoreet turpis quis auctor. Morbi sit amet nisl vel sem faucibus mollis varius et lacus. Donec lectus leo, condimentum sit amet tincidunt sed, condimentum vel leo. Sed nisl mi, suscipit et vestibulum a, dapibus id ligula. Vestibulum vitae metus purus. Nunc sed mauris sit amet diam blandit volutpat. Vivamus molestie, justo vel blandit varius, mauris dui ornare quam, sed laoreet justo purus eget sapien. Sed nunc arcu, sagittis non bibendum in, interdum sollicitudin orci. Morbi feugiat lorem et sem faucibus vulputate. Curabitur vitae mauris et turpis aliquam ultricies a ut diam.
 

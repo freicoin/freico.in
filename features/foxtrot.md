@@ -4,7 +4,7 @@ groups: ['feature']
 weight: 6
 slug: foxtrot
 title: Feature Six
-description: Proin pharetra turpis ut leo scelerisque scelerisque. Nullam sit amet sem et ante tempor sagittis sed a dui. Nulla hendrerit, ipsum a volutpat lobortis, magna neque dictum lacus, eu tempor tellus nisl luctus dolor. Quisque eget lacus pellentesque elit auctor placerat eu nec nibh. Nullam bibendum nulla eu urna vehicula bibendum.
+description: Proin pharetra turpis ut leo scelerisque scelerisque. Nullam sit amet sem et ante tempor sagittis sed a dui.
 ---
 Nam eget ornare dolor. Fusce ornare nisi eget tellus bibendum convallis. Pellentesque nibh dui, varius sed laoreet sit amet, elementum rhoncus diam. Curabitur commodo fermentum lacus vitae malesuada. Aliquam sagittis dui sit amet magna porttitor quis mollis turpis feugiat. Nunc lacinia aliquam justo eu consectetur. Nulla facilisi. Sed dapibus, odio a consequat ultrices, risus dolor ultrices enim, sit amet vehicula purus tellus et ipsum. Aenean sed odio id neque pellentesque tincidunt vitae id massa.
 
