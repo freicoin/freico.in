@@ -4,125 +4,28 @@ groups: ['primary']
 menu: About
 title: About Freicoin
 ---
-
-### What is Freicoin? ###
-
-Freicoin is a peer-to-peer (p2p) currency based on the cryptographic concept of a [proof-of-work block chain](http://bitcoin.org/bitcoin.pdf) conceived by Satoshi Nakamoto, the original developer of [Bitcoin](http://bitcoin.org/).
-
-Unlike Bitcoin, Freicoin has a [demurrage](http://en.wikipedia.org/wiki/Demurrage_%28currency%29) fee that ensures its circulation and bearers of the currency pay this fee automatically.
-
-You can download, review and improve the code of this free software project [from Github](https://github.com/freicoin/freicoin).
-
-### Why Freicoin? ###
-
-We think the economics of bitcoin can be improved. Some of our concerns are explained below.
-
-#### Basic interest as an economic rent ####
-
-Capital yields tend to equal interest rates just as prices tend to equal costs. Capital yields would be like the “selling price” of investments and interest rates its costs. Economic theory tell us that all [economic profits](http://en.wikipedia.org/wiki/Economic_profit) tend to zero in [perfect competition](http://en.wikipedia.org/wiki/Perfect_competition). So capital yields should tend to zero as different production goods of the same type compete with each other.
-
-As [Silvio Gesell](http://en.wikipedia.org/wiki/Silvio_Gesell) discovered, there’s a basic interest component in interest rates that doesn’t have to do with the inflation rate or the risk of the loan. Also called liquidity premium by other economists, this come from the fact that, being money non perishable and scarce, one shouldn’t rationally lend it at zero interest, even if there was no risk in the loan. So the basic interest causes an [economic rent](http://en.wikipedia.org/wiki/Economic_rent) not only for money holders and lenders but for all capital owners as it impedes yields from dropping to zero. Demurrage aims to suppress the basic interest.
-
-#### Velocity stability ####
-
-According to the [quantitive monetary theory](http://en.wikipedia.org/wiki/Equation_of_exchange), prices depend on money velocity. Demurrage encourages circulation and springs a higher and more stable velocity. So prices should be more stable for a currency with demurrage.
-
-### Positive interest and short-term thinking ###
-
-Some austrian economists claim that the basic interest can be explained by what they call “time preference.” They maintain that people always prefer to have things in the present than having them in the future. That is, short-term thinking is part of human nature. This is only true for capital-money, for example, you don’t necessarily prefer fresh 1000 apples today over 1 fresh apple a day for the next 1000 days, even if that holds true for U.S. dollars.
-
-According to [Bernard Lietaer](http://en.wikipedia.org/wiki/Bernard_Lietaer), this short term thinking is not inherent to humans but caused by existing monetary systems. He explain this with a [tree metaphor](http://content.wuala.com/contents/jtimon/temp/what%20do%20we%20invest%20in.jpg). Say you plant a tree today and that tree will produce $100 USD in lumber after 10 years, what are those future $100 worth today?
-
-With 5% interest rates, $100 in 10 years are equivalent to $61.39 today. That’s why we value more things in the present and this hasn’t always to be the case. The following table completes his example:
-
-<table>
-  <thead>
-    <tr>
-      <th>Future value of the tree adjusted to today…</th>
-      <th>in 10 years</th>
-      <th>in 100 years</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>…with 0% interest (without adjustment, real future value)</td>
-      <td>$100.00</td>
-      <td>$1000.00</td>
-    </tr>
-    <tr>
-      <td>…with 0% interest (without adjustment, real future value)</td>
-      <td>$61.39</td>
-      <td>$7.60</td>
-    </tr>
-    <tr>
-      <td>…with 0% interest (without adjustment, real future value)</td>
-      <td>$167.02</td>
-      <td>$168,903.82</td>
-    </tr>
-  </tbody>
-</table>
-
-As we can see, positive interest rates cause us to value short-term returns, and if there where negative interest rates the financial market would make us value things in the future more than in the present.
-
-#### Tragedy of the commons with fees? ####
-
-A [tragedy of the commons](http://en.wikipedia.org/wiki/Tragedy_of_the_commons) type of market failure when all the bitcoins are issued and the block subsidies for miners ends has [been considered](https://en.bitcoin.it/wiki/Tragedy_of_the_Commons) by the bitcoin community. It assumes that the maximum number of transactions per block is removed or increased, but Freicoin doesn’t have to fear that as there will be a perpetual reward for miners that comes from compensating for the coins “destroyed” by the demurrage fees.
-
-### Current state of Freicoin ###
-
-#### Beta testing ####
-
-We’re currently testing the main changes that were needed to implement Freicoin as a fork of the Bitcoin project. Please, help us test the beta. You can find more information about this in [this thread of freicoin forums](http://www.freicoin.org/freicoin-beta-testing-t34.html).
-
-Remember that the coins that are generated during the testing period will be lost, so don’t buy them. Difficulty is low, but just ask for some to play with there if you can’t mine them.
-
-### Pre-release discussion ###
-
-Apart from the changes already under testing, there are two more issues that need to be discussed and reach community consensus before the official release.
-
-#### How freicoins are generated? ####
-
-There’s infinite possibilities for the total supply and miner’s reward curves. How long should it take to reach the stable supply from which what is “destroyed” by demurrage equals what is “created” in block rewards? How fast should rewards decrease? Should we try to eliminate the discontinuities such as when the subsidy is halved?
-
-These and more related questions are being discussed in [this thread](http://www.freicoin.org/freicoin-generation-graph-t41.html).
-
-#### Who gets the demurrage fees? ####
-
-Will the demurrage in equilibrium be enough to secure the network? Will it be too much?
-If it is too much, how can we distribute the remaining in a fair and/or decentralized way?
-
-This is being discussed in several related threads:
-
-[http://www.freicoin.org/demurrage-should-it-all-go-to-miners-t20.html](http://www.freicoin.org/demurrage-should-it-all-go-to-miners-t20.html)
-
-[http://www.freicoin.org/how-can-we-distribute-the-demurrage-t40.html](http://www.freicoin.org/how-can-we-distribute-the-demurrage-t40.html)
-
-[http://www.freicoin.org/freicoin-foundation-t37.html](http://www.freicoin.org/freicoin-foundation-t37.html)
-
-[http://www.freicoin.org/how-to-secure-the-freicon-network-t38.html](http://www.freicoin.org/how-to-secure-the-freicon-network-t38.html)
-
-### Is Freicoin in competition with Bitcoin? ###
-
-Yes and no.
-
-#### A free monetary market ####
-
-We believe that there should be a free monetary market and monetary diversity. In this respect, yes, Freicoin and Bitcoin will compete with each other for users as a currency. But that doesn’t mean that you can’t use both or that one of them has to necessarily disappear. In any case, that’s for you and the rest of the market to decide, not us, the bitcoin community or any state to decide.
-
-Silvio Gesell [thought](http://www.community-exchange.org/docs/Gesell/en/neo/) that money was a natural monopoly and thus the state should operate it. But we disagree with him on that point. Thousands of [complementary currencies](http://www.complementarycurrency.org/ccDatabase/) in circulation are a living proof that this is not the case.
-
-Most austrian economist don’t believe in a monetary monopoly, even if it’s based on gold. [E.C. Riegel](http://www.newapproachtofreedom.info/) was a strong opponent of state monopoly money. [Bernard Lietaer thinks](http://www.youtube.com/watch?v=ykvRceBQRl8) that not only competition but also diversity is important for the efficiency and resiliance of a market economy. There are many other inspirations to defend a free monetary market.
-
-#### Free software and collaboration ####
-
-[Free software](http://www.gnu.org/philosophy/free-sw.html) is the software that respects your freedom as a user, but is also very well suited for collaboration. Freicoin is a fork of Bitcoin because we don’t want to compete with it technically. The technical improvements we develop will be submitted to the bitcoin repository, and we will draw upon new developments in bitcoin.
-
-Our software development relationship with the bitcoin community is based on collaboration, not competition.
-
-#### Merged mining ####
-
-We don’t compete with bitcoin for miners neither. The [merged mining](http://dot-bit.org/Merged_Mining) technology first developed for namecoin allows miners to use their proof of work in several blockchain networks at the same time.
-
-We’re currently evaluating the tradeoff between security and the convenience of having merged mining included from the beginning. Since some new chains have been attacked by bitcoin pools (even without the users of that pool knowing it) and merged mining makes new currencies vulnerable to such attacks. Even if Freicoin isn’t merge-mined with bitcoin from the beginning, it will be near future.
-
-The result is more security for both Freicoin and Bitcoin.
+<div class="row">
+  <div class="span12">
+    <p><img class="odd" style="float:left;margin-right:1em;margin-bottom:1em;" src="http://quickimage.it/320x180"><strong>Aliquam erat volutpat.</strong> Fusce vel ligula lacus. Ut sit amet diam diam, eget scelerisque sem. Nunc dictum dictum diam nec pretium. Morbi id neque sed quam fringilla blandit ut ut est. Maecenas urna orci, interdum cursus eleifend sodales, imperdiet sed neque. Aenean eu pretium sem. Mauris est odio, iaculis sodales consequat ac, pretium sed lorem. Morbi fringilla elit eget tellus eleifend tempus. Morbi feugiat porttitor nibh ut rhoncus. Praesent eu velit leo. Donec dictum urna nulla. Aliquam erat volutpat.</p>
+    <p>Maecenas vitae egestas augue. Etiam malesuada, est quis convallis semper, leo ligula ultricies dolor, ut aliquet eros mauris consequat dui. Praesent tempus congue massa ut sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at urna diam. Quisque pellentesque, mauris vel varius tempus, libero ipsum tristique nisi, ut suscipit mauris velit quis justo. Ut ultricies urna ac ante pellentesque vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <div style="float:clear;"></div><hr />
+    <p><img class="even" style="float:right;margin-left:1em;margin-bottom:1em;" src="http://quickimage.it/320x180"><strong>Aenean convallis dolor quis urna dignissim adipiscing.</strong> Aenean laoreet enim vitae justo feugiat ullamcorper. Fusce sit amet libero magna. Nunc risus quam, commodo sed pretium vel, egestas eu metus. Donec ut diam non nibh cursus egestas facilisis a enim. Fusce laoreet purus a massa vulputate condimentum. Vestibulum ipsum nulla, venenatis vehicula sollicitudin sollicitudin, volutpat ut augue.</p>
+    <p>In rutrum nisl vel augue pretium ut luctus felis vehicula. Praesent vestibulum convallis urna, et ultrices lorem volutpat quis. Sed scelerisque augue ac velit suscipit fermentum. Proin tincidunt fermentum neque, ut eleifend velit interdum et. Proin adipiscing tellus quis elit lacinia semper. Curabitur sit amet tortor et nulla dictum aliquet. Sed urna elit, vulputate a posuere ut, eleifend quis eros. Etiam non nulla sit amet nunc dapibus tincidunt. Sed felis enim, iaculis ut sagittis ut, dictum nec nisl. Nulla at lorem metus. Quisque ipsum ligula, euismod at convallis ac, fringilla vel nisi. Phasellus quis nunc sed turpis vehicula egestas. Curabitur sodales lobortis convallis. Phasellus placerat consectetur mauris ut porttitor.</p>
+    <div style="float:clear;"></div><hr />
+    <p><img class="odd" style="float:left;margin-right:1em;margin-bottom:1em;" src="http://quickimage.it/320x180"><strong>Duis semper facilisis magna, eu scelerisque dui aliquam et.</strong> Sed ac diam nisl. Vestibulum tortor orci, rutrum et faucibus ac, bibendum egestas tortor. Vestibulum sem mi, mollis eget accumsan varius, volutpat id augue. Ut enim sem, hendrerit vitae volutpat eget, fringilla vel erat. Sed eu dolor odio. Nam elementum tempus interdum.</p>
+    <p>Vivamus scelerisque euismod magna a euismod. Ut eget mauris dictum lectus pulvinar convallis. Cras diam turpis, mollis a facilisis hendrerit, pharetra quis justo. Maecenas dapibus bibendum orci, vitae suscipit erat adipiscing sed. Etiam ultricies, velit ut consequat varius, velit magna tincidunt lacus, pretium iaculis tortor enim at augue. Aliquam cursus justo varius est suscipit laoreet. Curabitur pharetra condimentum purus, eget elementum justo sollicitudin quis. Sed eu enim libero. In varius, turpis sagittis dapibus feugiat, turpis sem suscipit nibh, in mollis metus ipsum eu erat.</p>
+    <div style="float:clear;"></div><hr />
+    <p><img class="even" style="float:right;margin-left:1em;margin-bottom:1em;" src="http://quickimage.it/320x180"><strong>Aliquam vitae nibh sed lorem tincidunt bibendum ac vitae libero.</strong> Sed vulputate sollicitudin congue. In at justo vitae ligula laoreet facilisis non sit amet justo. In non nisl nisl, nec tristique dolor. Maecenas fermentum orci non risus suscipit euismod. Curabitur volutpat nisl at purus malesuada ut pellentesque orci dictum. Nunc id nibh dapibus mi consectetur mattis.</p>
+    <p>Fusce iaculis, lorem eget semper scelerisque, dolor lacus porta massa, vitae vulputate neque tortor quis arcu. Quisque placerat gravida ullamcorper. Nunc posuere erat nec enim mattis ut mattis dui feugiat. Mauris elementum suscipit mauris sit amet aliquet. Nulla porttitor cursus lacus, vitae aliquam erat condimentum ut. Quisque aliquet quam ornare dolor aliquam et molestie risus consectetur. Ut non nulla orci. Duis dolor sapien, gravida sit amet fringilla ut, dictum ut velit.</p>
+    <div style="float:clear;"></div><hr />
+    <p><strong>Ut vulputate felis consectetur ipsum volutpat blandit.</strong> Phasellus blandit consectetur nisi, in feugiat velit luctus nec. Nam interdum suscipit gravida. Nunc eget leo nec nisl egestas malesuada posuere eget dui. Ut porta volutpat erat, ac cursus dolor sodales non. Maecenas pellentesque pharetra pellentesque. Etiam ac dictum eros. Donec quis lobortis erat. Nam eget malesuada enim. Pellentesque egestas justo quis dolor fermentum ut imperdiet quam aliquet. Duis luctus rutrum blandit. In vitae metus nibh, eu euismod risus. Praesent imperdiet rhoncus arcu. Duis risus nisl, euismod sit amet ultrices ac, fringilla id quam.</p>
+    <ol>
+      <li><em>Duis arcu erat, accumsan non lobortis et.</em> Condimentum at nulla in orci mauris, bibendum in feugiat a, semper non orci. Aliquam justo ipsum, pulvinar nec egestas ac, ultrices vel dui. Ut quis eros eu sem porta ultrices.</li>
+      <li><em>Praesent rutrum consectetur lorem, id hendrerit justo viverra vitae.</em> Vestibulum pretium vulputate augue, ac interdum risus rutrum in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In lorem ante, imperdiet in scelerisque non, hendrerit vel ligula. Ut congue dapibus erat at porttitor.</li>
+      <li><em>Suspendisse potenti.</em> Vestibulum sodales ultricies mattis. Donec ullamcorper sollicitudin nulla, nec dapibus nibh congue condimentum. Nunc a luctus leo. Sed scelerisque libero sit amet augue sagittis bibendum. Nulla vel purus vehicula risus vestibulum vulputate.</li>
+    </ol>
+    <p>Phasellus massa turpis, euismod at adipiscing rhoncus, varius eu urna. Morbi dignissim neque sit amet sem suscipit ac vehicula mi hendrerit. Nulla facilisi. Nunc vehicula tristique arcu ac pharetra. In hac habitasse platea dictumst. Pellentesque blandit fringilla rhoncus. Vivamus at mi lectus. In tempus risus et turpis egestas id molestie urna elementum. Fusce at sem laoreet turpis bibendum facilisis nec et mauris. Nulla facilisi. Cras eget velit in risus consectetur auctor a at felis. Nam ultricies est nec mauris varius nec scelerisque neque fermentum.</p>
+    <p>In hac habitasse platea dictumst. Suspendisse sed erat felis, id elementum ligula. Donec gravida sapien eu lacus dapibus facilisis. Praesent pellentesque urna nec eros tempus euismod. Pellentesque vel nunc et nunc lobortis pharetra. Aenean imperdiet condimentum lectus, non dignissim ligula semper vel. In ultricies, nulla quis hendrerit commodo, justo lacus porta dolor, sit amet tempor neque enim ac dolor. Sed velit sem, condimentum vitae sagittis et, condimentum id neque. Donec interdum pretium consequat. Nulla lectus nulla, porta id euismod at, bibendum sed mi. Etiam quam est, iaculis lacinia consectetur vitae, cursus ac eros. Etiam porttitor fringilla purus, in auctor ligula dictum nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mattis laoreet velit vitae eleifend.</p>
+    <div style="float:clear;"></div>
+  </div>
+</div>
