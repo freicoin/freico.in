@@ -2,7 +2,7 @@
 layout: default
 groups: ['feature']
 weight: 3
-slug: charlie
+slug: longterm
 title: Long-term thinking
 description: Encourages long-term investments (as sustainable investments tend to be) by removing the time preference implicit in the basic interest.
 ---
@@ -39,4 +39,5 @@ With 5% interest rates, $100 in 10 years are equivalent to $61.39 today. That’
   </tbody>
 </table>
 
+<br>
 As we can see, positive interest rates cause us to value short-term returns, and if there where negative interest rates the financial market would make us value things in the future more than in the present.

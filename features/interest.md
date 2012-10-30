@@ -2,7 +2,7 @@
 layout: default
 groups: ['feature']
 weight: 1
-slug: alpha
+slug: interest
 title: No interest rent
 description: Removes the basic interest implicit in capitalism within a free market context.
 ---

@@ -2,7 +2,7 @@
 layout: default
 groups: ['feature']
 weight: 2
-slug: bravo
+slug: velocity
 title: Velocity stability
 description: Freicoin will have a high and more stable velocity of circulation.
 ---
