@@ -4,24 +4,25 @@ groups: ['primary']
 menu: Home
 title: Freicoin - peer-to-peer demurrage currency
 ---
-<div style="text-align:center;">
+<!--<div style="text-align:center;">
   <p><span class="label label-info">Latest version</span> <a href="/download/">{{ site.freicoind.version }}</a>, released <strong>{{ site.freicoind.release_date|date:"%d %B %Y" }}</strong> (<a href="https://github.com/freicoin/freicoin/commits/v{{ site.freicoind.version }}">Github</a>)</p>
-</div>
+</div>-->
 
 <div class="row">
   <div class="span8">
-    <h1>Freicoin: a p2p cash currency with Silvio Gesell's demurrage</h1>
+    <h1>Freicoin</h1>
     <p>Freicoin is a peer-to-peer (p2p) currency based on the cryptographic concept of a <a href="http://bitcoin.org/bitcoin.pdf">proof-of-work block chain</a> conceived by Satoshi Nakamoto, the original developer of <a href="http://bitcoin.org/">Bitcoin</a>.</p>
 
-    <p>Unlike Bitcoin, Freicoin has a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage fee</a> that ensures its circulation and bearers of the currency pay this fee automatically. This demurrage fee was proposed by <a href="http://en.wikipedia.org/wiki/Silvio_Gesell">Silvio Gesell</a> and has been tested <a href="http://en.wikipedia.org/wiki/Worgl_Experiment#The_W.C3.B6rgl_Experiment">several times</a> with <a href="http://en.wikipedia.org/wiki/Chiemgauer">positive results</a>.</p>
+    <p>Unlike Bitcoin, Freicoin has a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage</a> fee that ensures its circulation and bearers of the currency pay this fee automatically. This demurrage fee was proposed by <a href="http://en.wikipedia.org/wiki/Silvio_Gesell">Silvio Gesell</a> and has been tested <a href="http://en.wikipedia.org/wiki/Worgl_Experiment#The_W.C3.B6rgl_Experiment">several times</a> with <a href="http://en.wikipedia.org/wiki/Chiemgauer">positive results</a>.</p>
   </div>
 
-  <div class="span4" style="text-align:center;">
-    <p><a style="min-width:120px;" class="btn btn-success btn-large" href="/download/">Download</a></p>
+  <div class="span4" style="text-align:center;"><br><br><br>
+    <p><a style="min-width:120px;" class="btn btn-success btn-large" href="/download/">Download &raquo;</a></p>
 
-    <p><a style="min-width:120px;" class="btn btn-primary btn-large" href="https://github.com/freicoin/freicoin">Source Code</a></p>
+    <p><a style="min-width:120px;" class="btn btn-large" href="https://github.com/freicoin/freicoin">Source Code</a></p>
   </div>
 </div>
+<br><br><br>
 
 <div class="row">
   {% assign count = 0 %}
@@ -42,9 +43,10 @@ title: Freicoin - peer-to-peer demurrage currency
       <div class="span4">
         <h3>{{ node.title }}</h3>
         <p>{{ node.description }}</p>
-        <p><a href="{{ node.url|replace:'/index.html':'/' }}">Read more »</a></p>
+        <!--<p><a href="{{ node.url|replace:'/index.html':'/' }}">Read more »</a></p>-->
       </div>
       {% capture count %}{{ count|plus:1 }}{% endcapture %}
     {% endif %}
   {% endfor %}
 </div>
+<br><br>

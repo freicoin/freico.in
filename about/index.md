@@ -41,12 +41,12 @@ Freicoin shifts the balance, from simple wealth to merit. The wealthy will becom
 		<td>$1000</td>
 	</tr>
 	<tr>
-		<td>+5%</td>
+		<td>+5% (interest)</td>
 		<td>$61.39</td>
 		<td>$7.60</td>
 	</tr>
 	<tr>
-		<td>-5%</td>
+		<td>-5% (demurrage)</td>
 		<td>$167.02</td>
 		<td>$168,903.82</td>
 	</tr>
