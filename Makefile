@@ -47,11 +47,11 @@ maintainer-clean: distclean
 
 ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.gz:
 	mkdir -p ${CACHE_ROOT}/rbenv
-	curl -L 'https://nodeload.github.com/sstephenson/rbenv/tarball/v0.3.0' >'$@'
+	curl -L 'https://nodeload.github.com/sstephenson/rbenv/tar.gz/v0.3.0' >'$@'
 
 ${CACHE_ROOT}/rbenv/ruby-build-20120815.tar.gz:
 	mkdir -p ${CACHE_ROOT}/rbenv
-	curl -L 'https://nodeload.github.com/sstephenson/ruby-build/tarball/v20120815' >'$@'
+	curl -L 'https://nodeload.github.com/sstephenson/ruby-build/tar.gz/v20120815' >'$@'
 
 ${PKG_ROOT}/.stamp-h: Gemfile Gemfile.lock ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.gz ${CACHE_ROOT}/rbenv/ruby-build-20120815.tar.gz
 	# Because build and run-time dependencies are not thoroughly tracked,
