@@ -49,15 +49,11 @@ ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.gz:
 	mkdir -p ${CACHE_ROOT}/rbenv
 	curl -L 'https://nodeload.github.com/sstephenson/rbenv/tarball/v0.3.0' >'$@'
 
-${CACHE_ROOT}/rbenv/rbenv-gemset-0.3.0.tar.gz:
-	mkdir -p ${CACHE_ROOT}/rbenv
-	curl -L 'https://nodeload.github.com/jamis/rbenv-gemset/tarball/v0.3.0' >'$@'
-
 ${CACHE_ROOT}/rbenv/ruby-build-20120815.tar.gz:
 	mkdir -p ${CACHE_ROOT}/rbenv
 	curl -L 'https://nodeload.github.com/sstephenson/ruby-build/tarball/v20120815' >'$@'
 
-${PKG_ROOT}/.stamp-h: Gemfile Gemfile.lock ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.gz ${CACHE_ROOT}/rbenv/rbenv-gemset-0.3.0.tar.gz ${CACHE_ROOT}/rbenv/ruby-build-20120815.tar.gz
+${PKG_ROOT}/.stamp-h: Gemfile Gemfile.lock ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.gz ${CACHE_ROOT}/rbenv/ruby-build-20120815.tar.gz
 	# Because build and run-time dependencies are not thoroughly tracked,
 	# it is entirely possible that rebuilding the development environment
 	# on top of an existing one could result in a broken build. For the
@@ -81,10 +77,6 @@ ${PKG_ROOT}/.stamp-h: Gemfile Gemfile.lock ${CACHE_ROOT}/rbenv/rbenv-0.3.0.tar.g
 	tar \
 	    -C "${PKG_ROOT}"/plugins/ruby-build --strip-components 1 --gzip \
 	    -xf "${CACHE_ROOT}"/rbenv/ruby-build-20120815.tar.gz
-	mkdir -p "${PKG_ROOT}"/plugins/rbenv-gemset
-	tar \
-	    -C "${PKG_ROOT}"/plugins/rbenv-gemset --strip-components 1 --gzip \
-	    -xf "${CACHE_ROOT}"/rbenv/rbenv-gemset-0.3.0.tar.gz
 	
 	# Trigger a build and install of our required ruby version, configure our
 	# gemset, and select ruby version & gemset environments:
