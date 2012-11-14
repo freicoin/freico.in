@@ -126,3 +126,6 @@ We don’t compete with bitcoin for miners neither. The [merged mining](http://d
 We’re currently evaluating the tradeoff between security and the convenience of having merged mining included from the beginning. Since some new chains have been attacked by bitcoin pools (even without the users of that pool knowing it) and merged mining makes new currencies vulnerable to such attacks. Even if Freicoin isn’t merge-mined with bitcoin from the beginning, it will be near future.
 
 The result is more security for both Freicoin and Bitcoin.
+
+**Have you ever noticed that the majority of people where you live seem to be in debt?** You may be in debt yourself and have some guilt about it. Or, perhaps, you may have never had debt and believe that being in debt reflects poorly on a person's character. However, being in debt is not immoral; it is rather the foundation of civilization. If no person or agency were ever in debt to another, not very much would be achieved. This observation is key to the understanding that a demurrage currency serving the interests of the indebted majority would in turn support a lasting, durable civilization. Our two goals are to create a currency which keeps interest rates low, benefiting debtors, and simultaneously encourages investment, benefiting everyone.
+
