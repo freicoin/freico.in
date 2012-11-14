@@ -99,6 +99,6 @@ Gesell's [proposed solution](http://wikilivres.ca/wiki/The_Natural_Economic_Orde
 
 With high interest rates it pays to be a vulture capitalist. Forests are clear-cut rather than sustainably harvested. Small businesses with real products are purchased, their machines are sold off to competitors, and the company is loaded down with impossible debts and left to die. Centuries old buildings are demolished for parking lots. Essentially high interest rates fund the destruction of capital. Freicoin enables a sustainable society by safely lowering basic interest rates to zero without price inflation by means of demurrage.
 
-<div style="float:clear;"></div><hr />
+<div style="float:clear;"><hr /></div>
 
 **Finally, Freicoin, an electronic economy where the expecations are explicit and clear to everyone: all must work, and the value of your labor has a time value. Freicoin may be for you, but it's not for everyone. We sincerely hope that you will [download Freicoin today](/download), give it a try, and find out for yourself.**
