@@ -38,7 +38,7 @@ menu:
             url: /news/index.html
         -
             title: Download
-            url: /download/index.html
+            url: https://github.com/freicoin/freicoin/downloads
         -
             title: Develop
             url: https://github.com/freicoin/freicoin

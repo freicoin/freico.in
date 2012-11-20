@@ -8,7 +8,7 @@ title: About Freicoin
   <div class="span8">
     <h2>What&nbsp;is Freicoin?</h2>
 
-    <p>Freicoin is a decentralized, distributed electronic currency designed to address the grievances of the working class and re-align financial interests of the wealthy elite with the stability and well-being of the economy as a whole. Whereas inflationary currencies like the U.S. Dollar or Euro are controlled by central bankers under rules that intentionally or not benefit the establishment, Freicoin is completely decentralized and self-regulating, with a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage fee</a> that ensures its circulation and bearers of the currency pay this fee automatically to those community members who contribute work to secure the currency. It includes a <a href="/download/">downloadable client</a> for Mac OS X, Windows, and Linux, and an electronic network for transferring funds denominated in Freicoin world-wide.</p>
+    <p>Freicoin is a decentralized, distributed electronic currency designed to address the grievances of the working class and re-align financial interests of the wealthy elite with the stability and well-being of the economy as a whole. Whereas inflationary currencies like the U.S. Dollar or Euro are controlled by central bankers under rules that intentionally or not benefit the establishment, Freicoin is completely decentralized and self-regulating, with a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage fee</a> that ensures its circulation and bearers of the currency pay this fee automatically to those community members who contribute work to secure the currency. It includes a <a href="https://github.com/freicoin/freicoin/downloads">downloadable client</a> for Mac OS X, Windows, and Linux, and an electronic network for transferring funds denominated in Freicoin world-wide.</p>
   </div>
   <div class="span4">
     <img style="margin-bottom:1em;" src="/static/images/arctictern.jpg">
@@ -101,4 +101,4 @@ With high interest rates it pays to be a vulture capitalist. Forests are clear-c
 
 <div style="float:clear;"><hr /></div>
 
-**Finally, Freicoin, an electronic economy where the expectations are explicit and clear to everyone: all must work, and the value of your labor has a time value. Freicoin may be for you, but it's not for everyone. We sincerely hope that you will [download Freicoin today](/download/), give it a try, and find out for yourself.**
+**Finally, Freicoin, an electronic economy where the expectations are explicit and clear to everyone: all must work, and the value of your labor has a time value. Freicoin may be for you, but it's not for everyone. We sincerely hope that you will [download Freicoin today](https://github.com/freicoin/freicoin/downloads), give it a try, and find out for yourself.**
