@@ -60,8 +60,8 @@ menu:
             url: /copyright/index.html
 
 freicoind:
-    version: 0.0.1beta2
-    release_date: 2012-09-15T05:03:13
+    version: 0.0.1beta3
+    release_date: 2012-11-20T21:27:36
 
 analytics:
     google:
