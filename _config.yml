@@ -31,9 +31,6 @@ menu:
             title: About
             url: /about/index.html
         -
-            title: News
-            url: /news/index.html
-        -
             title: Download
             url: https://github.com/freicoin/freicoin/downloads/
         -
@@ -46,9 +43,6 @@ menu:
         -
             title: About
             url: /about/index.html
-        -
-            title: News
-            url: /news/index.html
         -
             title: Github
             url: https://github.com/freicoin/freicoin
