@@ -31,9 +31,6 @@ menu:
             title: About
             url: /about/index.html
         -
-            title: F<span style="font-variant:small-caps;">aq</span>
-            url: /faq/index.html
-        -
             title: News
             url: /news/index.html
         -
