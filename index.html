@@ -21,27 +21,19 @@ title: Freicoin - peer-to-peer demurrage currency
 </div>
 
 <div class="row">
-  {% assign count = 0 %}
-  {% for node in site.pages|sort:'weight' %}
-    {% assign visible = false %}
-    {% for group in node.groups %}
-      {% if 'feature' == group %}
-        {% assign visible = true %}
-      {% endif %}
-    {% endfor %}
-    {% if visible %}
-      {% capture _tdiv %}{{ count|divided_by:3 }}{% endcapture %}
-      {% capture _tmod %}{{ _tdiv|times:3 }}{% endcapture %}
-      {% if count == _tmod %}
-        </div>
-        <div class="row">
-      {% endif %}
-      <div class="span4">
-        <h3>{{ node.title }}</h3>
-        <p>{{ node.description }}</p>
-        <p><a href="{{ node.url|replace:'/index.html':'/' }}">Read more »</a></p>
-      </div>
-      {% capture count %}{{ count|plus:1 }}{% endcapture %}
-    {% endif %}
-  {% endfor %}
+  <div class="span4">
+    <h3>0% interest, forever</h3>
+    <p>Freicoin's parameters are carefully chosen to eliminate the basic interest component of investments, called the liquidity premium by economists. Usurious non-zero basic interest distorts the free market, incentivises poisonous greed, excess, and short-term thinking, and perpetuates a vicious cycle of boom/bust recessions.</p>
+  </div>
+  <div class="span4">
+    <h3>Sustainable investments</h3>
+    <p>Zero basic interest encourages sustainable investments, as long-term investments tend to be, by removing the time preference implicit inflationary (U.S. Dollar, Euro) or deflationary (Bitcoin) currencies. When business is conducted in Freicoin, participants value present and future holdings equally, and favor sustainable processes.</p>
+  </div>
+  <div class="span4">
+    <h3>Stable long-term value</h3>
+    <p>Demurrage forces freicoins to circulate at deliberately high rates. Separation of money's roles as store-of-value and medium-of-exchange allows money to flow when it is needed, in good times and bad. Our careful selection of governing parameters creates a currency whose value is stable with neither price inflation nor deflation.</p>
+  </div>
+  <div class="span12" style="text-align:center;">
+    <p><a href="/about/">Read more »</a></p>
+  </div>
 </div>
