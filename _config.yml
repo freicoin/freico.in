@@ -32,7 +32,7 @@ menu:
             url: /about/index.html
         -
             title: Download
-            url: https://github.com/freicoin/freicoin/downloads/
+            url: /download/index.html
         -
             title: Develop
             url: https://github.com/freicoin/freicoin
