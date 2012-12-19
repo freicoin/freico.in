@@ -370,6 +370,12 @@
     media="all"
     href="/static/theme/{% if theme %}{{ theme }}{% else %}default{% endif %}/css/typography.css"
     />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="/static/css/custom.css"
+    />
 
   <!--
     Modernizr HTML5 detection library tests the browser for support of new
@@ -471,10 +477,6 @@
       <div id="page-canvas">
 
         <div id="content-body">
-          <div style="text-align:center;">
-            <p><span class="label label-info">Latest version</span> <a href="https://github.com/freicoin/freicoin/downloads">{{ site.freicoind.version }}</a>, released <strong>{{ site.freicoind.release_date|date:"%d %B %Y" }}</strong> (<a href="https://github.com/freicoin/freicoin/commits/v{{ site.freicoind.version }}">Github</a>)</p>
-          </div>
-
           {{ content }}
         </div><!-- #content-body -->
 
