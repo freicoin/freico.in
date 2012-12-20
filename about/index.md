@@ -13,7 +13,7 @@ title: About Freicoin
     <p>Freicoin is an implementation of the accounting concept of a <a href="https://en.bitcoin.it/wiki/Proof_of_work">proof-of-work block chain</a> used by Satoshi Nakamoto in the <a href="http://bitcoin.org/bitcoin.pdf">creation</a> of <a href="http://bitcoin.org/">Bitcoin</a>. It includes a <a href="https://github.com/freicoin/freicoin/downloads/">downloadable client</a> for Mac OS X, Windows, and Linux, and an electronic network for transferring funds denominated in Freicoin world-wide. You can download, review and improve the code of this free software project <a href="https://github.com/freicoin/freicoin">on Github</a>.</p>
   </div>
   <div class="span4">
-    <img style="margin-bottom:1em;" src="/static/images/arctictern.jpg">
+    <img class="center" style="margin-bottom:1em;" src="/static/images/arctictern.jpg">
     <div class="caption" style="font-size:75%;line-height:120%;">
       <p>The Arctic Tern is a unique seabird: the Tern’s flight is so efficient and stable that the Tern can sleep in the air, and its navigation so precise that every year it migrates so far it could fly the circumference of the planet twice, but it always returns to the same place, the same colony.</p>
 

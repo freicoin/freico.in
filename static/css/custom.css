@@ -4,3 +4,4 @@ span.download-content{display:block;min-height:64px;padding-left:80px;padding-ri
 span.download-title{display:block;padding-top:6px;font-size:22px;color:white;}
 span.download-version{display:block;padding-top:4px;font-size:16px;color:#B5E786;}
 div p{text-align:justify;}
+img.center{display:block;margin-left:auto;margin-right:auto;}
