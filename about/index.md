@@ -134,4 +134,4 @@ We don’t compete with bitcoin for miners either. **Merged mining allows networ
 
 <div style="float:clear;"><hr /></div>
 
-**Finally: Freicoin, an electronic economy that is fair, and where the expectations are explicit and clear to everyone. Freicoin may be for you, but it's not for everyone. We sincerely hope that you will [download Freicoin today](https://github.com/freicoin/freicoin/downloads/), give it a try, and find out for yourself.**
+**Finally: Freicoin, an electronic economy that is fair, and where the expectations are explicit and clear to everyone. Freicoin may be for you, but it's not for everyone. We sincerely hope that you will [download Freicoin today](/download/), give it a try, and find out for yourself.**
