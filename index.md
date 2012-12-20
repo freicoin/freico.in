@@ -5,18 +5,15 @@ menu: Home
 title: Freicoin - peer-to-peer demurrage currency
 ---
 <div class="row">
+  <h1 style="margin-left:30px;">Freicoin: a P2P digital currency delivering freedom from usury</h1>
   <div class="span8">
-    <h1>Freicoin: a P2P digital currency delivering freedom from usury</h1>
     <p>Freicoin is a <a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> (P2P) currency based on the accounting concept of a <a href="https://en.bitcoin.it/wiki/Proof_of_work">proof-of-work block chain</a> used by Satoshi Nakamoto in the <a href="http://bitcoin.org/bitcoin.pdf">creation</a> of <a href="http://bitcoin.org/">Bitcoin</a>.</p>
 
     <p>Unlike Bitcoin, Freicoin has a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage fee</a> that ensures its circulation and bearers of the currency pay this fee automatically. This demurrage fee was proposed by <a href="http://en.wikipedia.org/wiki/Silvio_Gesell">Silvio Gesell</a> to eliminate the privileged position held by money compared with capital goods, which is the <a href="http://archive.org/details/TheNaturalEconomicOrder">underlying cause</a> of the boom/bust business cycle and the entrenchment of the financial elite, and has been tested <a href="http://en.wikipedia.org/wiki/Chiemgauer">several times</a> with <a href="http://en.wikipedia.org/wiki/Worgl_Experiment#The_W.C3.B6rgl_Experiment">positive results</a>.</p>
   </div>
 
-  <div class="span4" style="text-align:center;">
-    <br><br><br>
-    <p><a style="min-width:120px;" class="btn btn-success btn-large" href="/download/index.html">Download &raquo;</a></p>
-    <p><a style="min-width:120px;" class="btn btn-info btn-large" href="https://github.com/freicoin/freicoin">Source Code</a></p>
-    <br><br><br>
+  <div class="span4">
+    <p style="margin-top:20px;text-align:center;"><a class="btn btn-success btn-large" href="/download/"><span class="download-content" style=""><span class="download-title">Download</span><span class="download-version">{{ site.freicoind.version }}</span></span></a></p>
   </div>
 </div>
 
