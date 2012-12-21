@@ -16,7 +16,7 @@ Latest version <strong>{{ site.freicoind.version }}</strong>, released <strong>{
 		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoind.downloads.win-exe.link }}">Windows (exe)</a> {{ site.freicoind.downloads.win-exe.size }}</li>
 		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoind.downloads.win-zip.link }}">Windows (zip)</a> {{ site.freicoind.downloads.win-zip.size }}</li>
 		<li><img src="/static/images/os/osx-uni.png" class="os_icon" /><a href="{{ site.freicoind.downloads.macosx.link }}">Mac OS X</a> {{ site.freicoind.downloads.macosx.size }}</li>
-		<li><img src="/static/images/os/linux.png" class="os_icon" /><a href="{{ site.freicoind.downloads.linux.link }}">Linux (tar.xz, 32/64 bit)</a> {{ site.freicoind.downloads.linux.size }}</li>
-		<li><img src="/static/images/os/src.png" class="os_icon" /><a href="{{ site.freicoind.downloads.source.link }}">Source (zip)</a> {{ site.freicoind.downloads.source.size }}</li>
+		<li><img src="/static/images/os/linux.png" class="os_icon" /><a href="{{ site.freicoind.downloads.linux.link }}">Linux </a> {{ site.freicoind.downloads.linux.size }}</li>
+		<li><img src="/static/images/os/src.png" class="os_icon" /><a href="{{ site.freicoind.downloads.source.link }}">Source </a> {{ site.freicoind.downloads.source.size }}</li>
 	</ul>
 </div>
