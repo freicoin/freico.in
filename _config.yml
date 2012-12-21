@@ -54,19 +54,29 @@ freicoin:
     version: 0.0.1
     release_date: 2012-12-21T23:00:00
     downloads:
-        win-exe:
+        -
+            name: Windows (exe)
+            icon: /static/images/os/win.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-windows-setup.exe
             size: ~11MB
-        win-zip:
+        -
+            name: Windows (zip)
+            icon: /static/images/os/win.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-windows.zip
             size: ~14MB
-        macosx:
+        -
+            name: Mac OS X
+            icon: /static/images/os/osx-uni.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-macosx.dmg
             size: ~14MB
-        linux:
+        -
+            name: Linux
+            icon: /static/images/os/linux.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-linux.tar.xz
             size: ~17MB
-        source:
+        -
+            name: Source
+            icon: /static/images/os/src.png
             link: https://github.com/freicoin/freicoin/archive/v0.0.1.zip
             size: ~2MB
 

@@ -13,10 +13,8 @@ Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{
 
 <div>
 	<ul class="nostyle">
-		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoin.downloads.win-exe.link }}">Windows (exe)</a> {{ site.freicoin.downloads.win-exe.size }}</li>
-		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoin.downloads.win-zip.link }}">Windows (zip)</a> {{ site.freicoin.downloads.win-zip.size }}</li>
-		<li><img src="/static/images/os/osx-uni.png" class="os_icon" /><a href="{{ site.freicoin.downloads.macosx.link }}">Mac OS X</a> {{ site.freicoin.downloads.macosx.size }}</li>
-		<li><img src="/static/images/os/linux.png" class="os_icon" /><a href="{{ site.freicoin.downloads.linux.link }}">Linux </a> {{ site.freicoin.downloads.linux.size }}</li>
-		<li><img src="/static/images/os/src.png" class="os_icon" /><a href="{{ site.freicoin.downloads.source.link }}">Source </a> {{ site.freicoin.downloads.source.size }}</li>
+{% for dl in site.freicoin.downloads %}
+		<li><img src="{{ dl.icon }}" class="os_icon" /><a href="{{ dl.link }}">{{ dl.name }}</a> {{ dl.size }}</li>
+{% endfor %}
 	</ul>
 </div>
