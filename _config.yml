@@ -50,7 +50,7 @@ menu:
             title: Copyright
             url: /copyright/index.html
 
-freicoind:
+freicoin:
     version: 0.0.1
     release_date: 2012-12-21T23:00:00
     downloads:

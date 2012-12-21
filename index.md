@@ -13,7 +13,7 @@ title: Freicoin - peer-to-peer demurrage currency
   </div>
 
   <div class="span4">
-    <p style="margin-top:20px;text-align:center;"><a class="btn btn-success btn-large" href="/download/"><span class="download-content" style=""><span class="download-title">Download</span><span class="download-version">{{ site.freicoind.version }}</span></span></a></p>
+    <p style="margin-top:20px;text-align:center;"><a class="btn btn-success btn-large" href="/download/"><span class="download-content" style=""><span class="download-title">Download</span><span class="download-version">{{ site.freicoin.version }}</span></span></a></p>
   </div>
 </div>
 
