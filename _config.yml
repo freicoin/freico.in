@@ -66,7 +66,7 @@ freicoin:
             size: ~14MB
         -
             name: Mac OS X
-            icon: /static/images/os/osx-uni.png
+            icon: /static/images/os/mac.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-macosx.dmg
             size: ~14MB
         -
