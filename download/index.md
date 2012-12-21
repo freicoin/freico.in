@@ -13,10 +13,10 @@ Latest version <strong>{{ site.freicoind.version }}</strong>, released <strong>{
 
 <div>
 	<ul class="nostyle">
-		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="https://s3.amazonaws.com/in.freico.stable/freicoin-{{ site.freicoind.version }}-windows-setup.exe">Windows (exe)</a> ~11MB</li>
-		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="https://s3.amazonaws.com/in.freico.stable/freicoin-{{ site.freicoind.version }}-windows.zip">Windows (zip)</a> ~14MB</li>
-		<li><img src="/static/images/os/osx-uni.png" class="os_icon" /><a href="https://s3.amazonaws.com/in.freico.stable/freicoin-{{ site.freicoind.version }}-macosx.dmg">Mac OS X</a> ~14MB</li>
-		<li><img src="/static/images/os/linux.png" class="os_icon" /><a href="https://s3.amazonaws.com/in.freico.stable/freicoin-{{ site.freicoind.version }}-linux.tar.xz">Linux (tar.xz, 32/64 bit)</a> ~17MB</li>
-		<li><img src="/static/images/os/src.png" class="os_icon" /><a href="https://github.com/freicoin/freicoin/archive/v{{ site.freicoind.version }}.zip">Source (zip)</a> ~2MB</li>
+		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoind.downloads.win-exe.link }}">Windows (exe)</a> {{ site.freicoind.downloads.win-exe.size }}</li>
+		<li><img src="/static/images/os/win.png" class="os_icon" /><a href="{{ site.freicoind.downloads.win-zip.link }}">Windows (zip)</a> {{ site.freicoind.downloads.win-zip.size }}</li>
+		<li><img src="/static/images/os/osx-uni.png" class="os_icon" /><a href="{{ site.freicoind.downloads.macosx.link }}">Mac OS X</a> {{ site.freicoind.downloads.macosx.size }}</li>
+		<li><img src="/static/images/os/linux.png" class="os_icon" /><a href="{{ site.freicoind.downloads.linux.link }}">Linux (tar.xz, 32/64 bit)</a> {{ site.freicoind.downloads.linux.size }}</li>
+		<li><img src="/static/images/os/src.png" class="os_icon" /><a href="{{ site.freicoind.downloads.source.link }}">Source (zip)</a> {{ site.freicoind.downloads.source.size }}</li>
 	</ul>
 </div>
