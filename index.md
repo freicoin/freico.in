@@ -25,6 +25,12 @@ title: Freicoin - peer-to-peer demurrage currency
   </div>
 </div>
 
+<script type="text/javascript" src="/static/js/custom.js">
+</script>
+<script type="text/javascript">
+show_download();
+</script>
+
 <div class="row">
   <div class="span4">
     <h3>0% interest, forever</h3>
