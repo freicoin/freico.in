@@ -56,7 +56,7 @@ freicoin:
     downloads:
         -
             name: Windows (exe)
-            osid: Windows
+            osid: Win
             icon: /static/images/os/win.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.1-windows-setup.exe
             size: ~11MB

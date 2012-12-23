@@ -1,5 +1,5 @@
 function detect_os() {
-  var os_list = ['Windows','Mac','Linux'];
+  var os_list = ['Win','Mac','Linux'];
   var os = 'Unknown';
   for (var i=0; i<os_list.length; i++) {
     if (navigator.platform.indexOf(os_list[i])!=-1)
