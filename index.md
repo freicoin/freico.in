@@ -13,9 +13,23 @@ title: Freicoin - peer-to-peer demurrage currency
   </div>
 
   <div class="span4">
-    <p style="margin-top:20px;text-align:center;"><a class="btn btn-success btn-large" href="/download/"><span class="download-content" style=""><span class="download-title">Download</span><span class="download-version">{{ site.freicoind.version }}</span></span></a></p>
+    <ul id="download-list" class="nostyle">
+{% for dl in site.freicoin.downloads %}
+  {% if dl.osid %}
+      <li id="{{ dl.osid }}" style="display:{% if dl.osid == 'Unknown' %}block{% else %}none{% endif %};">
+<p style="margin-top:20px;text-align:center;"><a class="btn btn-success btn-large" href="{{ dl.link }}"><span class="download-content" style=""><span class="download-title">Download</span><span class="download-version">{{ site.freicoin.version }}</span><span class="download-name">{{ dl.name }}</span></span></a></p>
+      </li>
+  {% endif %}
+{% endfor %}
+    </ul>
   </div>
 </div>
+
+<script type="text/javascript" src="/static/js/custom.js">
+</script>
+<script type="text/javascript">
+show_download();
+</script>
 
 <div class="row">
   <div class="span4">
