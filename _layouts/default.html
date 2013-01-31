@@ -397,7 +397,11 @@
 {% elsif page.body_id %}
   {% assign body_id = page.body_id %}
 {% else %}
-  {% assign body_id = site.url | split:'://' | last | replace:'.','-' %}
+  {% if site.url %}
+    {% assign body_id = site.url | split:'://' | last | replace:'.','-' %}
+  {% else %}
+    {% assign body_id = 'body' %}
+  {% endif %}
 {% endif %}
 {% capture classes %}{{ site.classes }} {{ page.classes }}{% endcapture %}
 <body
