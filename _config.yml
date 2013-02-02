@@ -34,6 +34,9 @@ menu:
             title: FAQ
             url: /faq/index.html
         -
+            title: How it works?
+            url: /how/index.html
+        -
             title: Download
             url: /download/index.html
         -
