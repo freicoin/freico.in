@@ -42,12 +42,6 @@ menu:
         -
             title: Resources
             url: /resources/index.html
-        -
-            title: Develop
-            url: https://github.com/freicoin/freicoin
-        -
-            title: Discuss
-            url: http://www.freicoin.org/
     footer:
         -
             title: About
