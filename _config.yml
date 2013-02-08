@@ -40,6 +40,9 @@ menu:
             title: Download
             url: /download/index.html
         -
+            title: Resources
+            url: /resources/index.html
+        -
             title: Develop
             url: https://github.com/freicoin/freicoin
         -
