@@ -44,16 +44,6 @@ menu:
         -
             title: Resources
             url: /resources/index.html
-    footer:
-        -
-            title: About
-            url: /about/index.html
-        -
-            title: Github
-            url: https://github.com/freicoin/freicoin
-        -
-            title: Copyright
-            url: /copyright/index.html
 
 freicoin:
     version: 0.0.1-4

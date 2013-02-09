@@ -509,14 +509,6 @@
         {% endif %}
       </p>
 
-      <ul class="nav nav-pills" id="menu-footer-nav">
-        {% assign menu = site.menu.footer %}
-        {% assign no_active = true %}
-        {% include enumerate_menu %}
-        {% assign menu = nil %}
-        {% assign no_active = nil %}
-      </ul>
-
       <p id="copyright-footer">
         {% if copyright %}
           <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a><br />
