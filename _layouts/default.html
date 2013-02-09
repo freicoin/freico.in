@@ -511,8 +511,7 @@
 
       <p id="copyright-footer">
         {% if copyright %}
-          <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a><br />
-            Licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />
+          <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a>
         {% endif %}
       </p>
     </footer><!-- .footer -->
