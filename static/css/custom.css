@@ -1,5 +1,8 @@
 ul.nostyle{list-style:none;margin:0;}
 img.os_icon{margin-right:5px;}
+ul.big_icons{list-style:none;margin:15px;font-family:serif;font-size:16px;color:#415A41;}
+ul.big_icons li{margin-top:15px;margin-bottom:15px;}
+ul.big_icons li img{margin-right:15px;}
 span.download-content{display:block;min-height:64px;min-width:160px;padding-left:80px;padding-right:8px;text-align:center;font-family:serif;background:url(/static/images/download.png) 0 0 no-repeat;}
 span.download-title{display:block;padding-top:4px;font-size:22px;color:white;}
 span.download-version{display:block;padding-top:2px;font-size:18px;color:#B5E786;}
