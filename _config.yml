@@ -18,7 +18,7 @@ apple_touch_icon: /static/images/apple-touch-icon.png
 
 logo:
     header:
-        src: '/static/images/logo-header.png'
+        src: '/static/images/header.jpg'
     footer:
         src: '/static/images/logo-footer.png'
 
