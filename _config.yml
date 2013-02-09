@@ -31,14 +31,14 @@ menu:
             title: About
             url: /about/index.html
         -
-            title: FAQ
-            url: /faq/index.html
-        -
             title: How it works?
             url: /how/index.html
         -
             title: Why use?
             url: /why/index.html
+        -
+            title: FAQ
+            url: /faq/index.html
         -
             title: Download
             url: /download/index.html
