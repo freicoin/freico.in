@@ -420,7 +420,7 @@
 <header id="overview" class=
   "{% unless site.SITE_WIDE_SEARCH %}no-{% endunless %}search">
   <div class="row">
-    <div class="span6">
+    <div class="span12">
       {% if site.logo.header %}
         <a id="logo-header-link" class="brand" href="/" title=
         "{{ site.title }}"><img class="logo-header-image" src=
@@ -428,7 +428,6 @@
       {% else %}
         <h1>{{ site.title }}</h1>
       {% endif %}
-      <p class="lead">{{ site.tagline }}</p>
     </div>
   </div>
 
@@ -510,19 +509,9 @@
         {% endif %}
       </p>
 
-      <ul class="nav nav-pills" id="menu-footer-nav">
-        {% assign menu = site.menu.footer %}
-        {% assign no_active = true %}
-        {% include enumerate_menu %}
-        {% assign menu = nil %}
-        {% assign no_active = nil %}
-      </ul>
-
       <p id="copyright-footer">
         {% if copyright %}
-          <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a><br />
-            Licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></span>
+          <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a>
         {% endif %}
       </p>
     </footer><!-- .footer -->
