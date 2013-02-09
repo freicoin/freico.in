@@ -33,6 +33,9 @@ menu:
             title: How it works?
             url: /how/index.html
         -
+            title: Basics
+            url: /basics/index.html
+        -
             title: Why use?
             url: /why/index.html
         -
