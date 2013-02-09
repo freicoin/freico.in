@@ -37,6 +37,9 @@ menu:
             title: How it works?
             url: /how/index.html
         -
+            title: Why use?
+            url: /why/index.html
+        -
             title: Download
             url: /download/index.html
         -
