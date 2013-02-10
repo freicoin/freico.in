@@ -55,6 +55,6 @@ show_download();
     <p>Demurrage forces freicoins to circulate at deliberately high rates. Separation of money's roles as store-of-value and medium-of-exchange allows money to flow when it is needed, in good times and bad. Our careful selection of governing parameters creates a currency whose value is stable with neither price inflation nor deflation.</p>
   </div>
   <div class="span12" style="text-align:center;">
-    <p><a href="/about/">Read more »</a></p>
+    <p><a href="/story/">Read more »</a></p>
   </div>
 </div>

@@ -1,8 +1,8 @@
 ---
 layout: default
 groups: ['primary']
-menu: About
-title: About Freicoin
+menu: Story
+title: Story about Freicoin
 ---
 <div class="row">
   <div class="span8">
