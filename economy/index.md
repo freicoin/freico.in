@@ -13,7 +13,7 @@ Money production in Freicoin is through a process called **mining**, the executi
 <p style="text-align:center"><a href="/static/images/how/coins_in_distribution.png"><img src="/static/images/how/med_coins_in_distribution.png" /></a>
 <a href="/static/images/how/block_subsidy.png"><img src="/static/images/how/med_block_subsidy.png" /></a></p>
 
-During the 3-year **initial distribution**, one part of the newly created money is given to the miners in proportion to their contribution, starting at **30%** of new coins (on launch) and decreasing to **5%** (at the point of stabilization). When the network is small and young, we it needs more care and attention than when it grown. The remainder is distributed through the **Freicoin Foundation**, non-profit organization aimed to promote Freicoin and support sustainable world. **80%** of the total will be distributed through the Foundation.
+During the 3-year **initial distribution**, one part of the newly created money is given to the miners in proportion to their contribution, starting at **30%** of new coins (on launch) and decreasing to **5%** (at the point of stabilization). When the network is small and young, it needs more care and attention than when it grown. The remainder is distributed through the **Freicoin Foundation**, non-profit organization aimed to promote Freicoin and support sustainable world. **80%** of the total will be distributed through the Foundation.
 
 <p style="text-align:center"><a href="/static/images/how/howfreicoinshouldworks.png"><img src="/static/images/how/med_howfreicoinshouldworks.png" /></a></p>
 
