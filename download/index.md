@@ -7,7 +7,7 @@ title: Download Freicoin
 
 <h1>Download</h1>
 
-Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
+<p class="big_font">Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong></p>
 
 <div>
 	<ul class="big_icons">
