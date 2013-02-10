@@ -10,9 +10,9 @@ title: Download Freicoin
 Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
 
 <div>
-	<ul class="nostyle">
+	<ul class="big_icons">
 {% for dl in site.freicoin.downloads %}
-		<li><img src="{{ dl.icon }}" class="os_icon" /><a href="{{ dl.link }}">{{ dl.name }}</a> {{ dl.size }}</li>
+		<li><img src="{{ dl.icon }}" /><a href="{{ dl.link }}">{{ dl.name }}</a> {{ dl.size }}</li>
 {% endfor %}
 	</ul>
 </div>
