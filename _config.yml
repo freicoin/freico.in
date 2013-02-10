@@ -39,14 +39,14 @@ menu:
             title: Advantages
             url: /advantages/index.html
         -
+            title: Resources
+            url: /resources/index.html
+        -
             title: FAQ
             url: /faq/index.html
         -
             title: Download
             url: /download/index.html
-        -
-            title: Resources
-            url: /resources/index.html
 
 freicoin:
     version: 0.0.1-4
