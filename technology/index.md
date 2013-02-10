@@ -1,11 +1,11 @@
 ---
 layout: default
 groups: ['primary']
-menu: Basics
-title: Basics
+menu: Technology
+title: Technology
 ---
 
-<h1>Basics</h1>
+<h1>Technology</h1>
 
 <div>
 	<ul class="big_icons">
