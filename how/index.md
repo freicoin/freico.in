@@ -17,6 +17,6 @@ During the 3-year initial distribution, one part of the newly created money is g
 
 <p style="text-align:center"><a href="/static/images/how/howfreicoinshouldworks.png"><img src="/static/images/how/med_howfreicoinshouldworks.png" /></a></p>
 
-A small holding fee, called demurrage, and bearers of the currency pay this fee automatically. It ensures money circulation and encourages sustainable investments. These fee, 5% per year, re-enters the economy through miners who use a large portion of it to pay for operating costs.</p>
+A small holding fee, called demurrage, and bearers of the currency pay this fee automatically. It ensures money circulation and encourages sustainable investments. These fee, 5% per year, re-enters the economy through miners who use a large portion of it to pay for operating costs.
 
 <p style="text-align:center"><a href="/static/images/how/howfreicoinshouldworks2.png"><img src="/static/images/how/med_howfreicoinshouldworks2.png" /></a></p>
