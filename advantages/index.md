@@ -1,11 +1,11 @@
 ---
 layout: default
 groups: ['primary']
-menu: Why use?
-title: Why use Freicoin?
+menu: Advantages
+title: Advantages
 ---
 
-<h1>Why use Freicoin?</h1>
+<h1>Advantages</h1>
 
 <div>
 	<ul class="big_icons">
