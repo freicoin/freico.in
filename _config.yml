@@ -45,8 +45,8 @@ menu:
             title: FAQ
             url: /faq/index.html
         -
-            title: Download
-            url: /download/index.html
+            title: Downloads
+            url: /downloads/index.html
 
 freicoin:
     version: 0.0.1-4

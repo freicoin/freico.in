@@ -1,11 +1,11 @@
 ---
 layout: default
 groups: ['primary']
-menu: Download
-title: Download Freicoin
+menu: Downloads
+title: Downloads
 ---
 
-<h1>Download</h1>
+<h1>Downloads</h1>
 
 <p class="big_font">Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong></p>
 
