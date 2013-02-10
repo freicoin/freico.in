@@ -1,11 +1,11 @@
 ---
 layout: default
 groups: ['primary']
-menu: How it works?
-title: How it works?
+menu: Economy
+title: Economy
 ---
 
-How Freicoin works
+Economy
 ==================
 
 Money production in Freicoin is through a process called “mining,” the execution of tasks required to keep network running and secure. Every Freicoin client is capable of performing these tasks, but in practice mining is the domain of computer enthusiasts and IT professionals with tuned top-level hardware. New money is created in strictly limited amounts according math algorithms implemented in the Freicoin client. The total amount of money in circulation smoothly increases during the approximately 3 years after launch, until it stabilizes at 100 million coins.
