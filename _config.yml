@@ -40,9 +40,6 @@ menu:
             title: Resources
             url: /resources/index.html
         -
-            title: FAQ
-            url: /faq/index.html
-        -
             title: Downloads
             url: /downloads/index.html
 
