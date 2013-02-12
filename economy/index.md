@@ -18,7 +18,7 @@ In short
 		<li><img src="/static/images/economy/demurrage.png" />This tax called <b>demurrage</b> fee and has size 5% per year</li>
 		<li><img src="/static/images/economy/secure.png" />It goes to people who maintain network <b>running</b> and <b>secure</b></li>
 		<li><img src="/static/images/economy/circulation.png" />Demurrage fee ensures high rate of money <b>circulation</b></li>
-		<li><img src="/static/images/economy/sustainable.png" />Sustainable circulation prevents <b>inflation</b> and <b>deflation</b></li>
+		<li><img src="/static/images/economy/sustainable.png" />Stable circulation supports <b>sustainable economy</b></li>
 	</ul>
 </div>
 
