@@ -41,17 +41,22 @@ title: Freicoin - easy to use digital complementary currency
 show_download();
 </script>
 
+<hr/>
+
 <div class="row">
   <div class="span4">
-    <h3>0% interest, forever</h3>
-    <p>Freicoin's parameters are carefully chosen to eliminate the basic interest component of investments, called the liquidity premium by economists. Usurious non-zero basic interest distorts the free market, incentivises poisonous greed, excess, and short-term thinking, and perpetuates a vicious cycle of boom/bust recessions.</p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/medium.png" />Money is medium of exchange</li>
+    </ul>
   </div>
   <div class="span4">
-    <h3>Sustainable investments</h3>
-    <p>Zero basic interest encourages sustainable investments, as long-term investments tend to be, by removing the time preference implicit inflationary (U.S. Dollar, Euro) or deflationary (Bitcoin) currencies. When business is conducted in Freicoin, participants value present and future holdings equally, and favor sustainable processes.</p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/useless.png" />They is useless by themselves</li>
+    </ul>
   </div>
   <div class="span4">
-    <h3>Stable long-term value</h3>
-    <p>Demurrage forces freicoins to circulate at deliberately high rates. Separation of money's roles as store-of-value and medium-of-exchange allows money to flow when it is needed, in good times and bad. Our careful selection of governing parameters creates a currency whose value is stable with neither price inflation nor deflation.</p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/serves.png" />But serves needs of society</li>
+    </ul>
   </div>
 </div>
