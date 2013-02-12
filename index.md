@@ -28,12 +28,6 @@ title: Freicoin is easy to use digital complementary currency
 <hr/>
 
 <div class="row">
-  <div class="span12">
-    <p class="join">Join to new economy and start use Freicoin in several steps</p>
-  </div>
-</div>
-
-<div class="row">
   <div class="span8">
     <ul class="big_icons">
       <li><img src="/static/images/main/download.png" /><b>Download</b> a special software</li>
