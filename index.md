@@ -32,7 +32,7 @@ title: Freicoin is easy to use digital complementary currency
     <ul class="big_icons">
       <li><img src="/static/images/main/download.png" /><b>Download</b> a special software</li>
       <li><img src="/static/images/main/install.png" /><b>Install</b> it on your computer</li>
-      <li><img src="/static/images/main/synchronize.png" />Wait while it <b>synchronizes</b></li>
+      <li><img src="/static/images/main/synchronize.png" /><b>Wait</b> while it synchronizes</li>
     </ul>
   </div>
   <div class="span4" style="padding-top:35px;">
@@ -50,7 +50,7 @@ title: Freicoin is easy to use digital complementary currency
     <ul class="big_icons">
       <li><img src="/static/images/main/tell.png" /><b>Tell</b> to friends</li>
       <li><img src="/static/images/main/local.png" /><b>Join</b> to local community</li>
-      <li><img src="/static/images/main/build.png" />Build a <b>new economy</b></li>
+      <li><img src="/static/images/main/build.png" /><b>Build</b> a new economy</li>
     </ul>
   </div>
 </div>
