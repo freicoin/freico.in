@@ -25,9 +25,6 @@ menu:
             title: Home
             url: /index.html
         -
-            title: Story
-            url: /story/index.html
-        -
             title: Economy
             url: /economy/index.html
         -
