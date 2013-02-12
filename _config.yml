@@ -25,6 +25,9 @@ menu:
             title: Home
             url: /index.html
         -
+            title: Society
+            url: /society/index.html
+        -
             title: Economy
             url: /economy/index.html
         -
