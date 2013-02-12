@@ -10,17 +10,17 @@ title: Freicoin is easy to use digital complementary currency
 <div class="row">
   <div class="span4">
     <ul class="big_icons">
-      <li><img src="/static/images/main/everyone.png" /><b>For everyone</b></li>
+      <li><img src="/static/images/main/everyone.png" />For everyone</li>
     </ul>
   </div>
   <div class="span4">
     <ul class="big_icons">
-      <li><img src="/static/images/main/scalable.png" /><b>Easy scalable</b></li>
+      <li><img src="/static/images/main/scalable.png" />Easy scalable</li>
     </ul>
   </div>
   <div class="span4">
     <ul class="big_icons">
-      <li><img src="/static/images/main/combines.png" /><b>Combines better</b></li>
+      <li><img src="/static/images/main/combines.png" />Combines better</li>
     </ul>
   </div>
 </div>
@@ -29,7 +29,7 @@ title: Freicoin is easy to use digital complementary currency
 
 <div class="row">
   <div class="span12">
-    <p class="join">You can join to <b>new economy</b> and start use Freicoin right now in several simple steps</p>
+    <p class="join">Join to new economy and start use Freicoin in several steps</p>
   </div>
 </div>
 
