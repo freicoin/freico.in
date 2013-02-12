@@ -2,14 +2,34 @@
 layout: default
 groups: ['primary']
 menu: Home
-title: Freicoin - easy to use digital complementary currency
+title: Freicoin is easy to use digital complementary currency
 ---
+
+<h1 class="main"><i>Frei</i><b>coin</b> is easy to use digital complementary currency</h1>
+
+<div class="row">
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/everyone.png" /><b>For everyone</b></li>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/scalable.png" /><b>Easy scalable</b></li>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/combines.png" /><b>Combines better</b></li>
+    </ul>
+  </div>
+</div>
+
+<hr/>
+
 <div class="row">
   <div class="span12">
-    <h1>Freicoin: easy to use digital complementary currency</h1>
-    <p>Money was invented to resolve issues with exchange of different kinds of goods. In early times for this goal were used scarce and important for life products. All was changed with coming of paper money. They not primary necessary for survival and they not finite resource. Owner of printing press has huge advantage over other people who just uses such sort of money. This inequality leads to stratification of society and raises many problems.</p>
-    <p>Today all this strengthens movement toward alternative economic concepts. Local currencies and time banks often become are solutions of pressing problems of communities. But they not universal because applied only in small scale. Freicoin aims to be a medium of exchange for everyone. It easy scalable from close relations in community to long-distance connections between continents. Freicoin combines together modern computer technologies and proven economic theory.</p>
-    <p class="join">You can join to new economy and start use Freicoin right now in several simple steps:</p>
+    <p class="join">You can join to <b>new economy</b> and start use Freicoin right now in several simple steps</p>
   </div>
 </div>
 
