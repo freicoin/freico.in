@@ -18,8 +18,6 @@ apple_touch_icon: /static/images/apple-touch-icon.png
 logo:
     header:
         src: '/static/images/header.jpg'
-    footer:
-        src: '/static/images/logo-footer.png'
 
 menu:
     primary:
@@ -27,26 +25,23 @@ menu:
             title: Home
             url: /index.html
         -
-            title: About
-            url: /about/index.html
+            title: Society
+            url: /society/index.html
         -
-            title: How it works?
-            url: /how/index.html
+            title: Economy
+            url: /economy/index.html
         -
-            title: Basics
-            url: /basics/index.html
+            title: Technology
+            url: /technology/index.html
         -
-            title: Why use?
-            url: /why/index.html
-        -
-            title: FAQ
-            url: /faq/index.html
-        -
-            title: Download
-            url: /download/index.html
+            title: Advantages
+            url: /advantages/index.html
         -
             title: Resources
             url: /resources/index.html
+        -
+            title: Downloads
+            url: /downloads/index.html
 
 freicoin:
     version: 0.0.1-4

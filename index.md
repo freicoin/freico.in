@@ -2,19 +2,40 @@
 layout: default
 groups: ['primary']
 menu: Home
-title: Freicoin - peer-to-peer demurrage currency
+title: Freicoin is easy to use digital complementary currency
 ---
+
+<h1 class="main"><i>Frei</i><b>coin</b> is easy to use digital complementary currency</h1>
+
 <div class="row">
-  <div class="span12">
-    <h1>Freicoin: a P2P digital currency delivering freedom from usury</h1>
-  </div>
-  <div class="span8">
-    <p>Freicoin is a <a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> (P2P) currency based on the accounting concept of a <a href="https://en.bitcoin.it/wiki/Proof_of_work">proof-of-work block chain</a> used by Satoshi Nakamoto in the <a href="http://bitcoin.org/bitcoin.pdf">creation</a> of <a href="http://bitcoin.org/">Bitcoin</a>.</p>
-
-    <p>Unlike Bitcoin, Freicoin has a <a href="http://en.wikipedia.org/wiki/Demurrage_%28currency%29">demurrage fee</a> that ensures its circulation and bearers of the currency pay this fee automatically. This demurrage fee was proposed by <a href="http://en.wikipedia.org/wiki/Silvio_Gesell">Silvio Gesell</a> to eliminate the privileged position held by money compared with capital goods, which is the <a href="http://archive.org/details/TheNaturalEconomicOrder">underlying cause</a> of the boom/bust business cycle and the entrenchment of the financial elite, and has been tested <a href="http://en.wikipedia.org/wiki/Chiemgauer">several times</a> with <a href="http://en.wikipedia.org/wiki/Worgl_Experiment#The_W.C3.B6rgl_Experiment">positive results</a>.</p>
-  </div>
-
   <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/everyone.png" />For everyone</li>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/scalable.png" />Easy scalable</li>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/combines.png" />Combines better</li>
+    </ul>
+  </div>
+</div>
+
+<hr/>
+
+<div class="row">
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/download.png" /><b>Download</b> a special software</li>
+      <li><img src="/static/images/main/install.png" /><b>Install</b> it on your computer</li>
+      <li><img src="/static/images/main/synchronize.png" /><b>Wait</b> while it synchronizes</li>
+    </ul>
+  </div>
+  <div class="span4" style="padding-top:35px;">
     <ul id="download-list" class="nostyle">
 {% for dl in site.freicoin.downloads %}
   {% if dl.osid %}
@@ -25,6 +46,13 @@ title: Freicoin - peer-to-peer demurrage currency
 {% endfor %}
     </ul>
   </div>
+  <div class="span4">
+    <ul class="big_icons">
+      <li><img src="/static/images/main/tell.png" /><b>Tell</b> to friends</li>
+      <li><img src="/static/images/main/local.png" /><b>Join</b> to local community</li>
+      <li><img src="/static/images/main/build.png" /><b>Build</b> a new economy</li>
+    </ul>
+  </div>
 </div>
 
 <script type="text/javascript" src="/static/js/custom.js">
@@ -33,20 +61,22 @@ title: Freicoin - peer-to-peer demurrage currency
 show_download();
 </script>
 
+<hr/>
+
 <div class="row">
   <div class="span4">
-    <h3>0% interest, forever</h3>
-    <p>Freicoin's parameters are carefully chosen to eliminate the basic interest component of investments, called the liquidity premium by economists. Usurious non-zero basic interest distorts the free market, incentivises poisonous greed, excess, and short-term thinking, and perpetuates a vicious cycle of boom/bust recessions.</p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/medium.png" />Money is medium of exchange</li>
+    </ul>
   </div>
   <div class="span4">
-    <h3>Sustainable investments</h3>
-    <p>Zero basic interest encourages sustainable investments, as long-term investments tend to be, by removing the time preference implicit inflationary (U.S. Dollar, Euro) or deflationary (Bitcoin) currencies. When business is conducted in Freicoin, participants value present and future holdings equally, and favor sustainable processes.</p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/useless.png" />They is useless by themselves</li>
+    </ul>
   </div>
   <div class="span4">
-    <h3>Stable long-term value</h3>
-    <p>Demurrage forces freicoins to circulate at deliberately high rates. Separation of money's roles as store-of-value and medium-of-exchange allows money to flow when it is needed, in good times and bad. Our careful selection of governing parameters creates a currency whose value is stable with neither price inflation nor deflation.</p>
-  </div>
-  <div class="span12" style="text-align:center;">
-    <p><a href="/about/">Read more »</a></p>
+    <ul class="big_icons">
+      <li><img src="/static/images/main/serves.png" />But serves needs of society</li>
+    </ul>
   </div>
 </div>

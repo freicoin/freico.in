@@ -498,17 +498,6 @@
 <div id="footer">
   <div class="container">
     <footer class="footer">
-      <p id="logo-footer">
-        {% if site.logo.header %}
-          <a id="logo-footer-link" class="brand" href="/" title=
-          "{{ site.title }}"><img class="logo-footer-image" src=
-          "{{ site.logo.footer.src }}" alt="{{ site.title }}" /></a>
-          <br />
-        {% else %}
-          <h1>{{ site.title }}</h1>
-        {% endif %}
-      </p>
-
       <p id="copyright-footer">
         {% if copyright %}
           <span id="copyright" class="copyright">Copyright &copy; {{ site.time | date:"%Y" }} <a href="{% if author.url %}{{ author.url }}{% elsif author.email %}mailto:{{ author.email }}{% else %}/copyright/{% endif %}">{{ author.name }}</a>
