@@ -2,11 +2,11 @@
 layout: default
 groups: ['primary']
 menu: Home
-title: Freicoin - peer-to-peer demurrage currency
+title: Freicoin - easy-to-use demurrage currency
 ---
 <div class="row">
   <div class="span12">
-    <h1>Freicoin: a P2P digital currency delivering freedom from usury</h1>
+    <h1>Freicoin: a peer-to-peer digital currency delivering freedom from usury</h1>
   </div>
   <div class="span8">
     <p>Freicoin is a <a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> (P2P) currency based on the accounting concept of a <a href="https://en.bitcoin.it/wiki/Proof_of_work">proof-of-work block chain</a> used by Satoshi Nakamoto in the <a href="http://bitcoin.org/bitcoin.pdf">creation</a> of <a href="http://bitcoin.org/">Bitcoin</a>.</p>
