@@ -2,10 +2,10 @@
 layout: default
 groups: ['primary']
 menu: Why use?
-title: Why use Freicoin?
+title: Why Freicoin?
 ---
 
-<h1>Why use Freicoin?</h1>
+<h1>Why Freicoin?</h1>
 
 <div>
 	<ul class="big_icons">
