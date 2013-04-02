@@ -9,17 +9,17 @@ title: Frequently asked questions about Freicoin
 
 <h3>Monetary system</h3>
 
-<p><strong>Q:</strong> What's wrong with modern financial system?<br/>
-<strong>A:</strong> In current system money created by private organizations (banks), which lend them to other people. It's generates inequality - one should earn money, other gets them automatically.</p>
+<p><strong>Q:</strong> What's wrong with the modern financial system?<br/>
+<strong>A:</strong> In the current system, money is created by private organizations (banks), which lend the money to people. This generates inequality - some have to earn the money, while others get it automatically.</p>
 
-<p><strong>Q:</strong> But money created by government, is not it?<br/>
-<strong>A:</strong> No. Government not creates a money. Paper money are created by independent agency, called Central Bank. But cash is only 3% of all money. Most of them - electronic money. Commertial banks creates them when give credits. So government have almost no control over money distribution.</p>
+<p><strong>Q:</strong> But money is created by the government, isn't it?<br/>
+<strong>A:</strong> No. The government does not create money. Paper money is printed by an independent agency, called the Central Bank. But cash only counts for 3% of all money. Most of it is electronic/digital money. Commercial banks create the money when they give out credits. This means the government has almost no control over the money distribution.</p>
 
-<p><strong>Q:</strong> You tell doubtful things. It can't be so!<br/>
-<strong>A:</strong> These facts confirmed by many researches. For example, <a href="http://www.positivemoney.org/">Positive Money</a> according to UK economy and <a href="http://www.webofdebt.com/">Web Of Debt</a> according to US economy. You can look documental movie <a href="http://youtu.be/jqvKjsIxT_8">Money As Debt</a> if still in doubts.</p>
+<p><strong>Q:</strong> What you're saying doesn't sound reasonable. It can't be right?!<br/>
+<strong>A:</strong> These facts have been confirmed by many researches. For example, <a href="http://www.positivemoney.org/">Positive Money</a> according to the UK economy and <a href="http://www.webofdebt.com/">Web Of Debt</a> according to the US economy. You can watch the documentary <a href="http://youtu.be/jqvKjsIxT_8">Money As Debt</a> if you're still in doubt.</p>
 
-<p><strong>Q:</strong> And where the Solution?<br/>
-<strong>A:</strong> Gift economy is probably better one, but... it's not so easy to deploy it fast. Right now we can propose Freicoin. In Freicoin money creation process controlled by mathematical algorithms, implemented in software with same name. It's result of modern achievements of mankind - computing systems, distributed networks and applied cryptography.</p>
+<p><strong>Q:</strong> So what is the Solution?<br/>
+<strong>A:</strong> A gift based economy would probably be a better one, but such an economy can't be deployed rapidly. Right now we suggest that you consider Freicoin. In Freicoin, the money creation process is controlled by mathematical algorithms, implemented in the Freicoin software. It's a result of the modern achievements by mankind - powerful computing systems, distributed networks and applied cryptography.</p>
 
 <h3>Freicoin currency</h3>
 
