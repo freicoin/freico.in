@@ -13,7 +13,7 @@ title: Frequently asked questions about Freicoin
 <strong>A:</strong> In the current system, money is created by private organizations (banks), which lend the money to people. This generates inequality - some have to earn the money, while others get it automatically.</p>
 
 <p><strong>Q:</strong> But money is created by the government, isn't it?<br/>
-<strong>A:</strong> No. The government does not create money. Paper money is printed by an independent agency, called the Central Bank. But cash only counts for 3% of all money. Most of it is electronic/digital money. Commercial banks create the money when we give them credits. This means the government has almost no control over the money distribution.</p>
+<strong>A:</strong> No. The government does not create money. Paper money is printed by an independent agency, called the Central Bank. But cash only counts for 3% of all money. Most of it is electronic/digital money. Commercial banks create the money when they give out credits. This means the government has almost no control over the money distribution.</p>
 
 <p><strong>Q:</strong> What you're saying doesn't sound reasonable. It can't be right?!<br/>
 <strong>A:</strong> These facts have been confirmed by many researches. For example, <a href="http://www.positivemoney.org/">Positive Money</a> according to the UK economy and <a href="http://www.webofdebt.com/">Web Of Debt</a> according to the US economy. You can watch the documentary <a href="http://youtu.be/jqvKjsIxT_8">Money As Debt</a> if you're still in doubt.</p>
