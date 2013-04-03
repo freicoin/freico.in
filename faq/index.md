@@ -42,12 +42,12 @@ title: Frequently asked questions about Freicoin
 <strong>A:</strong> Estimated 5% annually. Ultimately it depends on the speed of certain operations in the network.</p>
 
 <p><strong>Q:</strong> With a zero interest rate, investments will be impossible!<br/>
-<strong>A:</strong> It's already possible, for example, in Islam banking. If the investor wants to profit, he must share and risk his investment. And thanks to the Internet, we have a great tool for direct investing - crowdfunding, where every participant can compare his/her own expectations for a new project and decide whether to fund it or not.</p>
+<strong>A:</strong> It's already possible, for example, in Islam banking. If the investor wants to profit, he must share and risk his investment. And thanks to the Internet, we have a great tool for investing directly - crowdfunding, where every participant can compare his/her own expectations for a new project and decide whether to fund it or not.</p>
 
 <h3>Freicoin project</h3>
 
 <p><strong>Q:</strong> Do you want to compete with Bitcoin?<br/>
-<strong>A:</strong> No, we want coexist with Bitcoin.</p>
+<strong>A:</strong> No, we want to coexist with Bitcoin.</p>
 
 <p><strong>Q:</strong> Where did you get the money for this project?<br/>
 <strong>A:</strong> Freicoin was funded by a public crowdfunding campaign on Indiegogo.</p>
@@ -72,8 +72,8 @@ title: Frequently asked questions about Freicoin
 <p><strong>Q:</strong> When, in the future, will all the coins have been distributed?<br/>
 <strong>A:</strong> About 3 years after the project launched (December 2012), which means sometimes in 2015 or 2016.</p>
 
-<p><strong>Q:</strong> Why do you prefer to give the coins to producers, but not to online merchants?<br/>
-<strong>A:</strong> Most of the production has already moved from the EU and the US to China. We should supports the small amount of producers, who remain in our countries. Online merchants are mostly resellers.</p>
+<p><strong>Q:</strong> Why do you prefer givig the coins to producers instead of online merchants?<br/>
+<strong>A:</strong> Most of the production has already moved from the EU and the US to China. We should support the small amount of producers, who remain in our countries. Online merchants are mostly resellers.</p>
 
 <p><strong>Q:</strong> Why do you want to share the coins between interested customers, and not between everyone?<br/>
 <strong>A:</strong> Because if a customer isn't interested in Freicoin, he won't use it. So the coins that are granted to him would essentially be lost.</p>
@@ -87,13 +87,13 @@ title: Frequently asked questions about Freicoin
 <strong>A:</strong> You can treat them as internal information about Freicoin. As long as the histogram and check marker are both green, everything is fine, the program is synced with the network and ready to be used.</p>
 
 <p><strong>Q:</strong> The histogram is mostly red &amp; orange<br/>
-<strong>A:</strong> Freicoin uses port 8639 for connecting to other nodes in the network. Check your firewall settings to allow connections to this port and wait some time.</p>
+<strong>A:</strong> Freicoin uses port 8639 for connecting to other nodes in the network. Make sure that your firewall allows connections to this port.</p>
 
 <p><strong>Q:</strong> Why is the client constantly downloading something?<br/>
 <strong>A:</strong> To stay up to date with the Freicoin network. Every copy of the program keeps a history of all operations in the network. It has to be be synced.</p>
 
 <p><strong>Q:</strong> I ran it for the first time. Why is it so slow?<br/>
-<strong>A:</strong> Initial download of the blockchain takes some time. Please be patient.</p>
+<strong>A:</strong> The initial download of the blockchain takes some time. Please be patient.</p>
 
 <p><strong>Q:</strong> What is a "block", a "hash", "generation", "mining"? I'm no scientist or programmer, so please, try to be clear.<br/>
 <strong>A:</strong> If you just use Freicoin as a normal user would, you can forget about these cumbersome terms. They reflect the internal structure of Freicoin and aren't needed for everyday usage.</p>
