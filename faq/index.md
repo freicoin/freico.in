@@ -23,89 +23,86 @@ title: Frequently asked questions about Freicoin
 
 <h3>Freicoin currency</h3>
 
-<p><strong>Q:</strong> Aha! And author of program playing role of Main Banker.<br/>
-<strong>A:</strong> Is distributed network. After launch this is self-controlled process. Quantity of freicoins is determined by entire network. Nobody can't produce "additional" money. Yes, it's almost Skynet :)</p>
+<p><strong>Q:</strong> Alright! So the creator of this program plays the role of the Main Banker.<br/>
+<strong>A:</strong> Freicoin is a distributed network. Since launch, it has been a self-controlled process. The quantity of freicoins produced is determined by the entire network. Nobody can produce "additional" money. Yes, it's almost like Skynet :)</p>
 
-<p><strong>Q:</strong> Freicoin rely on computers and Internet. It can be turn off.<br/>
-<strong>A:</strong> Yes. But most of modern society tied on electronics. End of Internet will stop current civilization.</p>
+<p><strong>Q:</strong> Freicoin relies on computers and the Internet, which means it can be turned off, doesn't it?<br/>
+<strong>A:</strong> Yes, this is true. Most of the modern society depends on electronics, though. This means, if the Internet was shut down, it would severely disrupt our whole civilization, not only Freicoin.</p>
 
-<p><strong>Q:</strong> I was listen about something like this. It already exists. And called Bitcoin.<br/>
-<strong>A:</strong> Bitcoin - is cake. Freicoin adds small cherry on top of one, namely demurrage fee.</p>
+<p><strong>Q:</strong> I've heard about something like this before. It already exists, and is called Bitcoin.<br/>
+<strong>A:</strong> Imagine Bitcoin being a cake. Freicoin adds a small cherry on top of the cake, namely the demurrage fee.</p>
 
-<p><strong>Q:</strong> How I can imagine demurrage fee?<br/>
-<strong>A:</strong> Money degrade over time. It's usual for traditional "paper money". They slowly wear out. You can think about freicoin as about cash.</p>
+<p><strong>Q:</strong> How can I get to understand the demurrage fee better?<br/>
+<strong>A:</strong> Money degrades over time, and it's common for traditional "paper money". They slowly wear out. In that sense, you can think about Freicoin as cash.</p>
 
-<p><strong>Q:</strong> Why freicoin using demurrage? I bother about melting coins.<br/>
-<strong>A:</strong> Bother? Is good. If money are stable, people prefer save them and don't spend. This decreasing money quantity in economics lead to violation of main purpose of money - medium of exchange. With demurrage you should think about money as they are, not as about treasure.</p>
+<p><strong>Q:</strong> Why does Freicoin use demurrage? I'm worried that my coins will just fade away.<br/>
+<strong>A:</strong> Worried? It's a good thing. If the amount of money was stable, people would prefer saving it as opposed to spending it. This would decrease the quantity of money circulated, which in turn would act against the main purpose of money - a medium of exchange. With demurrage in place, you should think about money as it's meant to be, not as a storage medium of wealth.</p>
 
-<p><strong>Q:</strong> How big this demurrage fee?<br/>
-<strong>A:</strong> Estimated 5% annually. It depends on operations in network.</p>
+<p><strong>Q:</strong> How big is this demurrage fee?<br/>
+<strong>A:</strong> Estimated 5% annually. Ultimately it depends on the speed of certain operations in the network.</p>
 
-<p><strong>Q:</strong> How to invest money to save and multiply them?<br/>
-<strong>A:</strong> Invest into long-term projects. Look into nature. Planted once tree will grow year from year and will give you more and more oxygen. If this is fruit tree, you also get better food for human being.</p>
-
-<p><strong>Q:</strong> With zero interest rate investments will impossible!<br/>
-<strong>A:</strong> It's already possible, for example, in Islam banking. If investor want share profits he must share and risks. And thanks to Internet, today we have great tool for direct investing - crowdfunding. Every participant measures own expectations from new project and decide to fund it or no.</p>
+<p><strong>Q:</strong> With a zero interest rate, investments will be impossible!<br/>
+<strong>A:</strong> It's already possible, for example, in Islam banking. If the investor wants to profit, he must share and risk his investment. And thanks to the Internet, we have a great tool for investing directly - crowdfunding, where every participant can compare his/her own expectations for a new project and decide whether to fund it or not.</p>
 
 <h3>Freicoin project</h3>
 
-<p><strong>Q:</strong> Do you want competate with Bitcoin?<br/>
-<strong>A:</strong> No, we want coexist with Bitcoin. Bitcoin great for Internet payments, Freicoin is targeted do same for real payments.</p>
+<p><strong>Q:</strong> Do you want to compete with Bitcoin?<br/>
+<strong>A:</strong> No, we want to coexist with Bitcoin.</p>
 
-<p><strong>Q:</strong> Where you got money for this project?<br/>
-<strong>A:</strong> Freicoin was funded by public crowdfunding campaign on indiegogo.</p>
+<p><strong>Q:</strong> Where did you get the money for this project?<br/>
+<strong>A:</strong> Freicoin was funded by a public crowdfunding campaign on Indiegogo.</p>
 
-<p><strong>Q:</strong> Sustainability, justice... You are damn communists!<br/>
-<strong>A:</strong> Socialism claims money prohibition. Freicoin aimed to fix broken monetary system. It's different things.</p>
+<p><strong>Q:</strong> Sustainability, justice... You sound like communists!<br/>
+<strong>A:</strong> Socialism claims money prohibition. Freicoin aims to fix a broken monetary system. Those are two different things.</p>
 
 <h3>Freicoin Foundation</h3>
 
-<p><strong>Q:</strong> What is Freicoin Faoundation?<br/>
-<strong>A:</strong> Freicoin Foundation is non-profit organization, aimed to support sustainability and biodiversity by means of integrating Freicoin currency into economical relations.</p>
+<p><strong>Q:</strong> What is the Freicoin Foundation?<br/>
+<strong>A:</strong> The Freicoin Foundation is a non-profit organization, aiming to support sustainability and biodiversity by integrating Freicoin into economical relations.</p>
 
-<p><strong>Q:</strong> You wrote, that Freicoin is decentralized. But Foundation is centralization!<br/>
-<strong>A:</strong> You are right. But we have no other solution. Initial coins should be distributed in society.</p>
+<p><strong>Q:</strong> You said that Freicoin is decentralized. But the Foundation makes it centralized!<br/>
+<strong>A:</strong> You are right. But we have no other solution. Initial coins should be distributed to the society.</p>
 
-<p><strong>Q:</strong> You can just give these coins to miners (as in Bitcoin). Why need a bureaucracy?<br/>
-<strong>A:</strong> Miners is only thin category of enthusiasts, not ordinary people who uses computer to browse Internet.</p>
+<p><strong>Q:</strong> Why can't you just give these coins to miners (as in Bitcoin). Why do we need a bureaucracy?<br/>
+<strong>A:</strong> The mining community consists mostly of enthusiasts, not ordinary people who use computers to browse the Internet.</p>
 
-<p><strong>Q:</strong> How many coins has Foundation?<br/>
-<strong>A:</strong> Freicoin Foundation distributes 80% of total Freicoin money supply via grants. Remaining 20% is reward for miners, who supoports network with computering power.</p>
+<p><strong>Q:</strong> How many coins does the Foundation have?<br/>
+<strong>A:</strong> The Freicoin Foundation distributes 80% of the total Freicoin money supply through grants. The remaining 20% is a reward for miners, who support the network with their computing power.</p>
 
-<p><strong>Q:</strong> When all coins will distributed?<br/>
-<strong>A:</strong> Estimated after 3 years since project launch.</p>
+<p><strong>Q:</strong> When, in the future, will all the coins have been distributed?<br/>
+<strong>A:</strong> About 3 years after the project launched (December 2012), which means sometimes in 2015 or 2016.</p>
 
-<p><strong>Q:</strong> Why you prefer give coins to producers, but not to online shops?<br/>
-<strong>A:</strong> Most of production already moved from EU and US to China. We should supports small amount of producers, who remaining in our countries. Online shops are resellers.</p>
+<p><strong>Q:</strong> Why do you prefer givig the coins to producers instead of online merchants?<br/>
+<strong>A:</strong> Most of the production has already moved from the EU and the US to China. We should support the small amount of producers, who remain in our countries. Online merchants are mostly resellers.</p>
 
-<p><strong>Q:</strong> Why you want spread coins between interested customers, not between all?<br/>
-<strong>A:</strong> Because if customer didn't interested in Freicoin, he will not use it. And coins, granted to him, will lost.</p>
+<p><strong>Q:</strong> Why do you want to share the coins between interested customers, and not between everyone?<br/>
+<strong>A:</strong> Because if a customer isn't interested in Freicoin, he won't use it. So the coins that are granted to him would essentially be lost.</p>
 
-<p><strong>Q:</strong> Ha! You should fund hi-tech, not farmers!<br/>
-<strong>A:</strong> For Freicoin Foundation sustainable future is priority. You can live without TV and mobile phone, but without food...? Family farms not funded by state, agriculture is low-profit activity. They need our help.</p>
+<p><strong>Q:</strong> You should fund hi-tech production, not farmers!<br/>
+<strong>A:</strong> For the Freicoin Foundation, a sustainable future is the priority. You can live without a TV and a mobile phone, but without food... unlikely! Family farms are not funded by the state, and agriculture is a low-profit activity. They need our help.</p>
 
 <h3>Freicoin client</h3>
 
-<p><strong>Q:</strong> The little icon at the bottom of my wallet says "8 active connections to freicoin network" and "downloaded 12213 blocks of transaction history..." What is that all about?<br/>
-<strong>A:</strong> You can treat it as some internal information about Freicoin. If histogram and check both green, all fine, program synced with network and ready to use.</p>
+<p><strong>Q:</strong> The little icon at the bottom of my wallet says "8 active connections to the Freicoin network" and "downloaded 12213 blocks of transaction history..." What's this all about?<br/>
+<strong>A:</strong> You can treat them as internal information about Freicoin. As long as the histogram and check marker are both green, everything is fine, the program is synced with the network and ready to be used.</p>
 
-<p><strong>Q:</strong> Histogram is mostly red &amp; orange<br/>
-<strong>A:</strong> Freicoin uses port 8639 for exchange with other nodes of network. Check your firewall settings to allow connections to this port and wait some time.</p>
+<p><strong>Q:</strong> The histogram is mostly red &amp; orange<br/>
+<strong>A:</strong> Freicoin uses port 8639 for connecting to other nodes in the network. Make sure that your firewall allows connections to this port.</p>
 
-<p><strong>Q:</strong> Why it constantly downloading something?<br/>
-<strong>A:</strong> To be up to date with Freicoin network. Every copy of program keep history of operations. It should be synced.</p>
+<p><strong>Q:</strong> Why is the client constantly downloading something?<br/>
+<strong>A:</strong> To stay up to date with the Freicoin network. Every copy of the program keeps a history of all operations in the network. It has to be be synced.</p>
 
-<p><strong>Q:</strong> I run it first time. Why it's so slowly?<br/>
-<strong>A:</strong> Initial download takes a time. Please, be patient.</p>
+<p><strong>Q:</strong> I ran it for the first time. Why is it so slow?<br/>
+<strong>A:</strong> The initial download of the blockchain takes some time. Please be patient.</p>
 
-<p><strong>Q:</strong> What is "block", "hash", "generation", "mining"? I'm not a scientist, so please, be clear.<br/>
-<strong>A:</strong> If you just use Freicoin, you can forget about these cumbersome terms and sleep tranquilly :) They reflects internal structure of Freicoin and don't need for everyday usage.</p>
+<p><strong>Q:</strong> What is a "block", a "hash", "generation", "mining"? I'm no scientist or programmer, so please, try to be clear.<br/>
+<strong>A:</strong> If you just use Freicoin as a normal user would, you can forget about these cumbersome terms. They reflect the internal structure of Freicoin and aren't needed for everyday usage.</p>
 
-<p><strong>Q:</strong> Are exists any special requirements for Freicoin client?<br/>
-<strong>A:</strong> Not recommended to place it on SSD. Freicoin client actively uses disk subsystem, SSD has limited amount of rewrites, so it can speed up degradation of your SSD.</p>
+<p><strong>Q:</strong> Are there any special requirements for the Freicoin client?<br/>
+<strong>A:</strong> It's not recommended to install it on an SSD. The Freicoin client actively uses the disk, and knowing that SSDs have a limited amount of rewrites, it could speed up the degradation of your SSD.</p>
 
-<p><strong>Q:</strong> Can I run Freicoin client on my smartphone/tablet?<br/>
-<strong>A:</strong> Ubuntu <a href="http://www.ubuntu.com/devices/phone">was ported</a> to handheld devices and was successfully launched on <a href="http://wiki.ubuntu.com/Nexus7">Nexus 7</a>. So in theory, yes, you can. In practice it's strongly not recommended. Freicoin client heavily uses file storage and can damage your flash card.</p>
+<p><strong>Q:</strong> Can I run the Freicoin client on my smartphone/tablet?<br/>
+<strong>A:</strong> Ubuntu <a href="http://www.ubuntu.com/devices/phone">has been ported</a> to handheld devices and was successfully launched on a <a href="http://wiki.ubuntu.com/Nexus7">Nexus 7</a>. So in theory, yes, you can. In practice it's strongly recommended not to do so. The Freicoin client heavily depends on file storage and could damage your flash card.</p>
 
-<p><strong>Q:</strong> But how I can use Freicoin on my smartphone?<br/>
-<strong>A:</strong> Freicoin support in online e-wallets will become available in near future.</p>
+<p><strong>Q:</strong> I still want to try Freicoin on my smartphone.<br/>
+<strong>A:</strong> Support for online e-wallets will be available in the near future, we suggest that you wait until then.</p>
