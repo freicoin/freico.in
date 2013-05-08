@@ -72,7 +72,7 @@ title: Frequently asked questions about Freicoin
 <p><strong>Q:</strong> When, in the future, will all the coins have been distributed?<br/>
 <strong>A:</strong> About 3 years after the project launched (December 2012), which means sometimes in 2015 or 2016.</p>
 
-<p><strong>Q:</strong> Why do you prefer givig the coins to producers instead of online merchants?<br/>
+<p><strong>Q:</strong> Why do you prefer giving the coins to producers instead of online merchants?<br/>
 <strong>A:</strong> Most of the production has already moved from the EU and the US to China. We should support the small amount of producers, who remain in our countries. Online merchants are mostly resellers.</p>
 
 <p><strong>Q:</strong> Why do you want to share the coins between interested customers, and not between everyone?<br/>
