@@ -83,6 +83,9 @@ title: Frequently asked questions about Freicoin
 
 <h3>Freicoin client</h3>
 
+<p><strong>Q:</strong> My client is stuck at "catching up", what's wrong?<br/>
+<strong>A:</strong> This happens when the network hashrate is insufficient compared to the current difficulty, it's nothing to worry about.</p>
+
 <p><strong>Q:</strong> The little icon at the bottom of my wallet says "8 active connections to the Freicoin network" and "downloaded 12213 blocks of transaction history..." What's this all about?<br/>
 <strong>A:</strong> You can treat them as internal information about Freicoin. As long as the histogram and check marker are both green, everything is fine, the program is synced with the network and ready to be used.</p>
 
