@@ -49,38 +49,38 @@ menu:
             url: /resources/index.html
 
 freicoin:
-    version: 0.0.2
-    release_date: 2013-02-10T12:00:00
+    version: 0.0.2-2
+    release_date: 2013-05-11T12:00:00
     downloads:
         -
             name: Windows (exe)
             osid: Win
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-windows-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-2-windows-setup.exe
             size: ~11MB
         -
             name: Windows (zip)
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-windows.zip
-            size: ~14MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-2-windows.zip
+            size: ~16MB
         -
             name: Mac OS X
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-macosx.dmg
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-2-macosx.dmg
             size: ~15MB
         -
             name: Linux
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-linux.tar.xz
-            size: ~17MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.0.2-2-linux.tar.xz
+            size: ~18MB
         -
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/freicoin/freicoin/archive/v0.0.2.zip
-            size: ~2MB
+            link: https://github.com/freicoin/freicoin/archive/v0.0.2-2.zip
+            size: ~3.9MB
 
 analytics:
     google:
