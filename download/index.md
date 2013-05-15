@@ -7,9 +7,9 @@ title: Download Freicoin
 
 <h1>Download</h1>
 
-Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
+*NOTE*: On Wed, 15 May 2013 a hard-fork change was released with version v0.0.2-2. Within a couple of days of that date, only v0.0.2-2 or newer clients will be able to connect to the main Freicoin network. Please update _immediately_ if you haven't already!
 
-*Note: If you have participated in the beta or release candidate, you will first need to delete or rename your Freicoin data directory. On windows this is "%APPDATA%\Freicoin", on Mac OS X "~/Library/Application Support/Freicoin", and on Linux "~/.freicoin". Make sure that you backup these files if you need the keys contained in your old wallet (for example, you used the release candidate to generate your miner payout address).*
+Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
 
 <div>
 	<ul class="nostyle">
