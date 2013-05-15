@@ -50,7 +50,7 @@ menu:
 
 freicoin:
     version: 0.0.2-2
-    release_date: 2013-05-11T12:00:00
+    release_date: 2013-05-15T22:00:00
     downloads:
         -
             name: Windows (exe)
