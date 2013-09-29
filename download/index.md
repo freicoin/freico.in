@@ -7,7 +7,7 @@ title: Download Freicoin
 
 <h1>Download</h1>
 
-*NOTE*: On Wed, 15 May 2013 a hard-fork change was released with version v0.0.2-2. Within a couple of days of that date, only v0.0.2-2 or newer clients will be able to connect to the main Freicoin network. Please update _immediately_ if you haven't already!
+*NOTE*: A hard-fork change is scheduled for 15 Dec 2013. Please make sure that you are running at least version v0.8.3-1 by this date. Older clients will be at risk for not synchronizing properly after this date.
 
 Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
 
