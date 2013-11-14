@@ -44,6 +44,9 @@ menu:
         -
             title: Resources
             url: /resources/index.html
+        -
+            title: Foundation
+            url: https://foundation.freicoin.org
 
 freicoin:
     version: 0.8.3-1
