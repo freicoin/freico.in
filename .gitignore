@@ -1,4 +1,6 @@
 Makefile.local
+.directory
+/.rbenv/
 .cache/
 .pkg/
 .rbenv-version
