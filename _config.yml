@@ -76,12 +76,6 @@ freicoin:
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-linux.tar.xz
             size: 18.7MB
         -
-            name: Source
-            osid: Unknown
-            icon: /static/images/os/src.png
-            link: https://github.com/freicoin/freicoin/archive/v0.8.3-1.zip
-            size: 3.9MB
-        -
             name: Ubuntu (PPA)
             osid: Linux
             icon: /static/images/os/linux.png
@@ -94,7 +88,13 @@ freicoin:
             link: https://aur.archlinux.org/packages/freicoin-qt/
             size: 
         -
-            name: Git
+            name: Source
+            osid: Unknown
+            icon: /static/images/os/src.png
+            link: https://github.com/freicoin/freicoin/archive/v0.8.3-1.zip
+            size: 3.9MB
+        -
+            name: Git repository
             osid: Unknown
             icon: /static/images/os/src.png
             link: https://github.com/freicoin/freicoin
