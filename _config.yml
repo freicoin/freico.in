@@ -84,18 +84,21 @@ freicoin:
         -
             name: Ubuntu (PPA)
             osid: Linux
-            icon: /static/images/os/src.png
+            icon: /static/images/os/linux.png
             link: https://launchpad.net/~freicoin/+archive/stable
+            size: 
         -
             name: Arch Linux (AUR)
             osid: Linux
-            icon: /static/images/os/src.png
+            icon: /static/images/os/linux.png
             link: https://aur.archlinux.org/packages/freicoin-qt/
+            size: 
         -
             name: Git
             osid: Unknown
-            icon: /static/images/os/github.png
+            icon: /static/images/os/src.png
             link: https://github.com/freicoin/freicoin
+            size: 
 
 analytics:
     google:
