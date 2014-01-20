@@ -81,6 +81,21 @@ freicoin:
             icon: /static/images/os/src.png
             link: https://github.com/freicoin/freicoin/archive/v0.8.3-1.zip
             size: 3.9MB
+        -
+            name: Ubuntu (PPA)
+            osid: Linux
+            icon: /static/images/os/src.png
+            link: https://launchpad.net/~freicoin/+archive/stable
+        -
+            name: Arch Linux (AUR)
+            osid: Linux
+            icon: /static/images/os/src.png
+            link: https://aur.archlinux.org/packages/freicoin-qt/
+        -
+            name: Git
+            osid: Unknown
+            icon: /static/images/os/github.png
+            link: https://github.com/freicoin/freicoin
 
 analytics:
     google:
