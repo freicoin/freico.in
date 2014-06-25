@@ -10,7 +10,7 @@ title: Notable Freicoin Community Member Bios
 
 	<h2><a href="https://github.com/maaku">Mark Friedenbach</a></h2>
 	<p>Core Developer</p>
-	<a href="mailto:mark@monetize.io">mark@monetize.io</a>
+	<p>Email: <a href="mailto:mark@monetize.io">mark@monetize.io</a></p>
 	<img src="/static/images/bios/markfriedenbach.jpg" alt="Mark Friedenbach (maaku)" width="300" height="299"/>
     <p>
     Mark Friedenbach is a software engineer, formerly a contractor at NASA-Ames Research Center who left to become an independent bitcoin protocol developer. He is chiefly responsible for Freicoin's specific implementation details, as well as later modifications such implementation and optimization of the FIR filter difficulty adjustment algorithm (designed by @galambo). Mark was a speaker at the Bitcoin 2013 U.S. conference, and it is currently engaged in implementing Alan Reiner's Ultimate blockchain compression w/ trust-free lite nodes proposal, Greg Maxwell's CoinJoin protocol, and blockchain pruning - work which continues.
