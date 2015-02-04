@@ -11,8 +11,8 @@ title: Resources
 		<li><img src="/static/images/resources/forum.png" class="os_icon" /><a href="http://freicoin.freeforums.org">Forum</a> - discussion &amp; market</li>
 		<li><img src="/static/images/resources/irc.png" class="os_icon" /><a href="http://webchat.freenode.net/?channels=freicoin">IRC</a> - online meetings</li>
 		<li><img src="/static/images/resources/mail.png" class="os_icon" /><a href="http://groups.google.com/group/freicoin">Maillist</a> - announcements</li>
+		<li><img src="/static/images/resources/wiki.png" class="os_icon" /><a href="https://github.com/freicoin/freicoin/wiki">Wiki</a> - The Freicoin Wiki</li>
 		<li><img src="/static/images/resources/bugtracker.png" class="os_icon" /><a href="https://github.com/freicoin/freicoin/issues">Bugtracker</a> - dev issues</li>
-		<li><img src="/static/images/resources/wiki.png" class="os_icon" /><a href="http://wiki.freicoin.us">Wiki</a> - community run, hosted by Joe's Pool (FreiCoin.US)</li>
                 <li><img src="/static/images/resources/alliance.png" class="os_icon" /><a href="http://freicoinalliance.com">Freicoin Alliance</a> - Forum, news about Freicoin</li> 
 	</ul>
 </div>
