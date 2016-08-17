@@ -7,7 +7,7 @@ title: Download Freicoin
 
 <h1>Download</h1>
 
-*NOTE*: A hard-fork change is scheduled for 15 Dec 2013. Please make sure that you are running at least version v0.8.3-1 by this date. Older clients will be at risk for not synchronizing properly after this date.
+*NOTE*: Release v0.8.6-2 includes a scheduled soft-fork change to the consensus rules described by BIP 66. Upon activation by a mining threshold of 95%, older clients will no longer generate valid candidate blocks. If you are operating Freicoin mining equipment, please upgrade your daemon before soft-fork activation.
 
 Latest version <strong>{{ site.freicoin.version }}</strong>, released <strong>{{ site.freicoin.release_date|date:"%d %B %Y" }}</strong>
 
