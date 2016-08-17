@@ -51,50 +51,50 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 0.8.3-1
-    release_date: 2013-09-26T12:00:00
+    version: 0.8.6-2
+    release_date: 2016-08-17T12:00:00
     downloads:
         -
             name: Windows (exe)
             osid: Win
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-win32-setup.exe
-            size: 11.6MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32-setup.exe
+            size: 12MB
         -
             name: Windows (zip)
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-win32.zip
-            size: 15.6MB
-        -
-            name: Mac OS X
-            osid: Mac
-            icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-macosx.dmg
-            size: 13.5MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32.zip
+            size: 16MB
+        #-
+        #    name: Mac OS X
+        #    osid: Mac
+        #    icon: /static/images/os/mac.png
+        #    link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-macosx.dmg
+        #    size: 13.5MB
         -
             name: Linux
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-linux.tar.xz
-            size: 18.7MB
-        -
-            name: Ubuntu (PPA)
-            osid: Linux
-            icon: /static/images/os/linux.png
-            link: https://launchpad.net/~freicoin/+archive/stable
-            size: 
-        -
-            name: Arch Linux (AUR)
-            osid: Linux
-            icon: /static/images/os/linux.png
-            link: https://aur.archlinux.org/packages/freicoin-qt/
-            size: 
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-linux.tar.xz
+            size: 19MB
+        #-
+        #    name: Ubuntu (PPA)
+        #    osid: Linux
+        #    icon: /static/images/os/linux.png
+        #    link: https://launchpad.net/~freicoin/+archive/stable
+        #    size: 
+        #-
+        #    name: Arch Linux (AUR)
+        #    osid: Linux
+        #    icon: /static/images/os/linux.png
+        #    link: https://aur.archlinux.org/packages/freicoin-qt/
+        #    size: 
         -
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/freicoin/freicoin/archive/v0.8.3-1.zip
-            size: 3.9MB
+            link: https://github.com/freicoin/freicoin/archive/v0.8.6-2.zip
+            size: 3.2MB
         -
             name: Git repository
             osid: Unknown
