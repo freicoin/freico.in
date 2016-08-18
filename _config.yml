@@ -59,12 +59,12 @@ freicoin:
             osid: Win
             icon: /static/images/os/win.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32-setup.exe
-            size: 12MB
+            size: 11.4MB
         -
             name: Windows (zip)
             icon: /static/images/os/win.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32.zip
-            size: 16MB
+            size: 15.6MB
         #-
         #    name: Mac OS X
         #    osid: Mac
@@ -76,7 +76,7 @@ freicoin:
             osid: Linux
             icon: /static/images/os/linux.png
             link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-linux.tar.xz
-            size: 19MB
+            size: 18.7MB
         #-
         #    name: Ubuntu (PPA)
         #    osid: Linux
