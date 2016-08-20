@@ -8,6 +8,7 @@ title: Resources
 <h1>Resources</h1>
 <div>
 	<ul class="nostyle">
+		<li><img src="/static/images/resources/wiki.png" class="os_icon" /><a 	href="http://explorer.sicanet.net">Blockexplorer</a> - browse and find transactions</li>
 		<li><img src="/static/images/resources/forum.png" class="os_icon" /><a href="http://freicoin.freeforums.org">Forum</a> - discussion &amp; market</li>
 		<li><img src="/static/images/resources/irc.png" class="os_icon" /><a href="http://webchat.freenode.net/?channels=freicoin">IRC</a> - online meetings</li>
 		<li><img src="/static/images/resources/mail.png" class="os_icon" /><a href="http://groups.google.com/group/freicoin">Maillist</a> - announcements</li>
