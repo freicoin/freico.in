@@ -101,6 +101,12 @@ freicoin:
             icon: /static/images/os/src.png
             link: https://github.com/freicoin/freicoin
             size: 
+        -
+            name: Android Wallet (apk)
+            osid: Android
+            icon: /static/images/os/android.png
+            link: https://freicoinalliance.com/wallet/wallet-0.2.1-BETA.apk
+            size: 2.5MB
 
 analytics:
     google:
