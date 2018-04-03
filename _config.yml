@@ -51,19 +51,19 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 0.8.6-2
-    release_date: 2016-08-17T12:00:00
+    version: 0.8.6-3
+    release_date: 2018-04-03T12:00:00
     downloads:
         -
             name: Windows (exe)
             osid: Win
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.3-win32-setup.exe
             size: 11.4MB
         -
             name: Windows (zip)
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-win32.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.3-win32.zip
             size: 15.6MB
         #-
         #    name: Mac OS X
@@ -75,7 +75,7 @@ freicoin:
             name: Linux
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6-2-linux.tar.xz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.3-linux.zip
             size: 18.7MB
         #-
         #    name: Ubuntu (PPA)
@@ -93,7 +93,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/freicoin/freicoin/archive/v0.8.6-2.zip
+            link: https://github.com/freicoin/freicoin/archive/v0.8.6-3.zip
             size: 3.2MB
         -
             name: Git repository
