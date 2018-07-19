@@ -51,32 +51,51 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 0.8.6.2-5
-    release_date: 2018-04-17T12:00:00
+    version: 0.9.5.0-6
+    release_date: 2018-07-18T12:00:00
     downloads:
         -
-            name: Windows (exe)
-            osid: Win
+            name: Windows 32-bit (exe)
+            osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.2-5-win32-setup.exe
-            size: 11.4MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-win32-setup.exe
+            size: 12.3MB
         -
-            name: Windows (zip)
+            name: Windows 64-bit (exe)
+            osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.2-5-win32.zip
-            size: 15.4MB
-        #-
-        #    name: Mac OS X
-        #    osid: Mac
-        #    icon: /static/images/os/mac.png
-        #    link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.3-1-macosx.dmg
-        #    size: 13.5MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-win64-setup.exe
+            size: 13.0MB
         -
-            name: Linux
+            name: Windows 32-bit (zip)
+            osid: Win32
+            icon: /static/images/os/win.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-win32.zip
+            size: 28.9MB
+        -
+            name: Windows 64-bit (zip)
+            osid: Win64
+            icon: /static/images/os/win.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-win64.zip
+            size: 30.9MB
+        -
+            name: Mac OS X
+            osid: Mac
+            icon: /static/images/os/mac.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-osx.dmg
+            size: 13.5MB
+        -
+            name: Linux 32-bit
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-0.8.6.2-5-linux.zip
-            size: 15.1MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-linux32.zip
+            size: 16.6MB
+        -
+            name: Linux 64-bit
+            osid: Linux
+            icon: /static/images/os/linux.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v0.9.5.0-6-linux64.zip
+            size: 16.4MB
         #-
         #    name: Ubuntu (PPA)
         #    osid: Linux
@@ -93,8 +112,8 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/freicoin/freicoin/archive/v0.8.6.2-5.zip
-            size: 3.1MB
+            link: https://github.com/freicoin/freicoin/archive/v0.9.5.0-6.zip
+            size: 5.0MB
         -
             name: Git repository
             osid: Unknown
