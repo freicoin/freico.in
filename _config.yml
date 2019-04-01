@@ -119,7 +119,7 @@ freicoin:
             osid: Unknown
             icon: /static/images/os/src.png
             link: https://github.com/tradecraftio/tradecraft/archive/v12.1-10123.zip
-            size: 4.5MB
+            size: 5.4MB
         -
             name: Git repository
             osid: Unknown
