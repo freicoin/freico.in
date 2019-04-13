@@ -51,56 +51,56 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 12.1-10123
-    release_date: 2019-04-01T12:00:00
+    version: 12.1.1-10130
+    release_date: 2019-04-13T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-win32-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-win32-setup.exe
             size: 11.4MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-win64-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-win64-setup.exe
             size: 21.0MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-win32.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-win32.zip
             size: 11.9MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-win64.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-win64.zip
             size: 22.3MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-osx.dmg
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-osx.dmg
             size: 10.0MB
         -
             name: macOS (server, 64-bit)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-osx64.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-osx64.tar.gz
             size: 16.2MB
         -
             name: Linux 32-bit
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-linux32.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-linux32.tar.gz
             size: 21.6MB
         -
             name: Linux 64-bit
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1-10123-linux64.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.1-10130-linux64.tar.gz
             size: 21.2MB
         #-
         #    name: Ubuntu (PPA)
@@ -118,7 +118,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v12.1-10123.zip
+            link: https://github.com/tradecraftio/tradecraft/archive/v12.1.1-10130.zip
             size: 5.4MB
         -
             name: Git repository
