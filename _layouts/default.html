@@ -586,26 +586,6 @@
   })
 </script>
 
-<!--
-  This is a variation of the official analytics snippet:
-    <http://mathiasbynens.be/notes/async-analytics-snippet>
-
-  FIXME: Sign up for analytics, replace XXXXXX-XX with our site's ID and
-         uncomment to put it into effect.
-  -->
-{% if site.analytics.google %}
-  <script>
-    var _gaq = [['_setAccount', '{{ site.analytics.google.code }}'], ['_trackPageview']];
-    (function(d, t) {
-      var g = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-      g.async = true;
-      g.src = ('https:'==location.protocol?'//ssl':'//www') + '.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g, s);
-    })(document, 'script');
-  </script>
-{% endif %}
-
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.monetize.io/" : "http://piwik.monetize.io/");

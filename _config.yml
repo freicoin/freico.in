@@ -133,10 +133,6 @@ freicoin:
             link: https://freicoinalliance.com/wallet/wallet-0.2.1-BETA.apk
             size: 2.5MB
 
-analytics:
-    google:
-        code: UA-35675637-1
-
 exclude:
     - ".cache"
     - ".pkg"
