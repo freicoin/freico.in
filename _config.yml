@@ -51,57 +51,69 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 12.1.3.3-10198
-    release_date: 2020-05-12T12:00:00
+    version: 13.2-11780
+    release_date: 2020-05-15T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-win32-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-win32-setup.exe
             size: 11.5MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-win64-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-win64-setup.exe
             size: 12.0MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-win32.zip
-            size: 21.2MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-win32.zip
+            size: 20.6MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-win64.zip
-            size: 22.4MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-win64.zip
+            size: 21.9MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-osx.dmg
-            size: 10.1MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-osx.dmg
+            size: 10.5MB
         -
-            name: macOS (server, 64-bit)
+            name: macOS (server)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-osx64.tar.gz
-            size: 16.4MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-osx64.tar.gz
+            size: 17.3MB
         -
-            name: Linux 32-bit
+            name: Linux i686 (Intel/AMD 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-linux32.tar.gz
-            size: 21.7MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-i686-pc-linux-gnu.tar.gz
+            size: 22.2MB
         -
-            name: Linux 64-bit
+            name: Linux x86_64 (Intel/AMD 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v12.1.3.3-10198-linux64.tar.gz
-            size: 21.3MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-x86_64-linux-gnu.tar.gz
+            size: 21.9MB
+        -
+            name: Linux ARMv7-A (ARM 32-bit)
+            osid: Linux
+            icon: /static/images/os/linux.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-arm-linux-gnueabihf.tar.gz
+            size: 8.8MB
+        -
+            name: Linux ARMv8-A (ARM 64-bit)
+            osid: Linux
+            icon: /static/images/os/linux.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2-11780-aarch64-linux-gnu.tar.gz
+            size: 9.1MB
         #-
         #    name: Ubuntu (PPA)
         #    osid: Linux
@@ -118,7 +130,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v12.1.3.3-10198.zip
+            link: https://github.com/tradecraftio/tradecraft/archive/v13.2-11780.zip
             size: 5.2MB
         -
             name: Git repository
