@@ -51,68 +51,68 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 13.2.1-11797
-    release_date: 2020-05-20T12:00:00
+    version: 13.2.2-11812
+    release_date: 2020-06-20T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-win32-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-win32-setup.exe
             size: 11.5MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-win64-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-win64-setup.exe
             size: 12.0MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-win32.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-win32.zip
             size: 20.6MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-win64.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-win64.zip
             size: 21.9MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-osx.dmg
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-osx.dmg
             size: 10.5MB
         -
             name: macOS (server)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-osx64.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-osx64.tar.gz
             size: 17.3MB
         -
             name: Linux i686 (Intel/AMD 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-i686-pc-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-i686-pc-linux-gnu.tar.gz
             size: 22.2MB
         -
             name: Linux x86_64 (Intel/AMD 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-x86_64-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-x86_64-linux-gnu.tar.gz
             size: 21.9MB
         -
             name: Linux ARMv7-A (ARM 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-arm-linux-gnueabihf.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-arm-linux-gnueabihf.tar.gz
             size: 8.8MB
         -
             name: Linux ARMv8-A (ARM 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.1-11797-aarch64-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.2-11812-aarch64-linux-gnu.tar.gz
             size: 9.4MB
         #-
         #    name: Ubuntu (PPA)
@@ -130,8 +130,8 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.1-11797.zip
-            size: 5.2MB
+            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.2-11812.zip
+            size: 5.3MB
         -
             name: Git repository
             osid: Unknown
