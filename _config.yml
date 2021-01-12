@@ -51,69 +51,69 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 13.2.4.1-11871
-    release_date: 2020-08-21T12:00:00
+    version: 13.2.5-11909
+    release_date: 2021-01-12T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-win32-setup.exe
-            size: 11.5MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win32-setup.exe
+            size: 12MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-win64-setup.exe
-            size: 12.0MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win64-setup.exe
+            size: 13MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-win32.zip
-            size: 20.6MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win32.zip
+            size: 21MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-win64.zip
-            size: 21.9MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win64.zip
+            size: 23MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-osx.dmg
-            size: 10.5MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-osx.dmg
+            size: 11MB
         -
             name: macOS (server)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-osx64.tar.gz
-            size: 17.3MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-osx64.tar.gz
+            size: 18MB
         -
             name: Linux i686 (Intel/AMD 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-i686-pc-linux-gnu.tar.gz
-            size: 22.2MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-i686-pc-linux-gnu.tar.gz
+            size: 23MB
         -
             name: Linux x86_64 (Intel/AMD 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-x86_64-linux-gnu.tar.gz
-            size: 21.9MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-x86_64-linux-gnu.tar.gz
+            size: 23MB
         -
             name: Linux ARMv7-A (ARM 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-arm-linux-gnueabihf.tar.gz
-            size: 8.8MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-arm-linux-gnueabihf.tar.gz
+            size: 9.0MB
         -
             name: Linux ARMv8-A (ARM 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.4.1-11871-aarch64-linux-gnu.tar.gz
-            size: 9.4MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-aarch64-linux-gnu.tar.gz
+            size: 9.6MB
         #-
         #    name: Ubuntu (PPA)
         #    osid: Linux
@@ -130,7 +130,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.4.1-11871.zip
+            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.5-11909.zip
             size: 5.3MB
         -
             name: Git repository
