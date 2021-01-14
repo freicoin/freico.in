@@ -51,68 +51,68 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 13.2.5-11909
-    release_date: 2021-01-12T12:00:00
+    version: 13.2.5.1-11914
+    release_date: 2021-01-13T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win32-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-win32-setup.exe
             size: 12MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win64-setup.exe
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-win64-setup.exe
             size: 13MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win32.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-win32.zip
             size: 21MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-win64.zip
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-win64.zip
             size: 23MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-osx.dmg
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-osx.dmg
             size: 11MB
         -
             name: macOS (server)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-osx64.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-osx64.tar.gz
             size: 18MB
         -
             name: Linux i686 (Intel/AMD 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-i686-pc-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-i686-pc-linux-gnu.tar.gz
             size: 23MB
         -
             name: Linux x86_64 (Intel/AMD 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-x86_64-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-x86_64-linux-gnu.tar.gz
             size: 23MB
         -
             name: Linux ARMv7-A (ARM 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-arm-linux-gnueabihf.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-arm-linux-gnueabihf.tar.gz
             size: 9.0MB
         -
             name: Linux ARMv8-A (ARM 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5-11909-aarch64-linux-gnu.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v13.2.5.1-11914-aarch64-linux-gnu.tar.gz
             size: 9.6MB
         #-
         #    name: Ubuntu (PPA)
@@ -130,7 +130,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.5-11909.zip
+            link: https://github.com/tradecraftio/tradecraft/archive/v13.2.5.1-11914.zip
             size: 5.3MB
         -
             name: Git repository
