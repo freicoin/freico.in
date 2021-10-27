@@ -51,69 +51,75 @@ menu:
             title: Bios
             url: /bios/index.html
 freicoin:
-    version: 17.2-18404
-    release_date: 2021-10-10T12:00:00
+    version: 18.1-20170
+    release_date: 2021-10-27T12:00:00
     downloads:
         -
             name: Windows 32-bit (exe)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-win32-setup.exe
-            size: 15MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-win32-setup.exe
+            size: 16MB
         -
             name: Windows 64-bit (exe)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-win64-setup.exe
-            size: 15MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-win64-setup.exe
+            size: 16MB
         -
             name: Windows 32-bit (zip)
             osid: Win32
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-win32.zip
-            size: 26MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-win32.zip
+            size: 29MB
         -
             name: Windows 64-bit (zip)
             osid: Win64
             icon: /static/images/os/win.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-win64.zip
-            size: 26MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-win64.zip
+            size: 28MB
         -
             name: macOS (app)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-osx.dmg
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-osx.dmg
             size: 11MB
         -
             name: macOS (server)
             osid: Mac
             icon: /static/images/os/mac.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-osx64.tar.gz
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-osx64.tar.gz
             size: 20MB
         -
             name: Linux i686 (Intel/AMD 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-i686-pc-linux-gnu.tar.gz
-            size: 30MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-i686-pc-linux-gnu.tar.gz
+            size: 32MB
         -
             name: Linux x86_64 (Intel/AMD 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-x86_64-linux-gnu.tar.gz
-            size: 27MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-x86_64-linux-gnu.tar.gz
+            size: 30MB
         -
             name: Linux ARMv7-A (ARM 32-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-arm-linux-gnueabihf.tar.gz
-            size: 23MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-arm-linux-gnueabihf.tar.gz
+            size: 25MB
         -
             name: Linux ARMv8-A (ARM 64-bit)
             osid: Linux
             icon: /static/images/os/linux.png
-            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v17.2-18404-aarch64-linux-gnu.tar.gz
-            size: 26MB
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-aarch64-linux-gnu.tar.gz
+            size: 29MB
+        -
+            name: Linux RV64GC (RISC-V 64-bit)
+            osid: Linux
+            icon: /static/images/os/linux.png
+            link: https://s3.amazonaws.com/in.freico.stable/freicoin-v18.1-20170-riscv64-linux-gnu.tar.gz
+            size: 29MB
         #-
         #    name: Ubuntu (PPA)
         #    osid: Linux
@@ -130,7 +136,7 @@ freicoin:
             name: Source
             osid: Unknown
             icon: /static/images/os/src.png
-            link: https://github.com/tradecraftio/tradecraft/archive/v17.2-18404.zip
+            link: https://github.com/tradecraftio/tradecraft/archive/v18.1-20170.zip
             size: 4.9MB
         -
             name: Git repository
