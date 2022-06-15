@@ -11,7 +11,9 @@ author :
     #email: freicoin@monetize.io
     #url: http://monetize.io/
 
-theme: spacelab
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 favicon: /static/images/favicon.ico
 apple_touch_icon: /static/images/apple-touch-icon.png
 
