@@ -11,7 +11,7 @@ author :
     #email: freicoin@monetize.io
     #url: http://monetize.io/
 
-theme: primer
+theme: spacelab
 favicon: /static/images/favicon.ico
 apple_touch_icon: /static/images/apple-touch-icon.png
 

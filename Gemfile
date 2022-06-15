@@ -5,3 +5,4 @@ gem 'redcarpet',  '3.5.1'
 gem 'maruku',     '=0.6.0'
 gem 'rdiscount',  '=1.6.8'
 gem 'RedCloth',   '4.3.0'
+gem "bootswatch", github: "thomaspark/bootswatch"
